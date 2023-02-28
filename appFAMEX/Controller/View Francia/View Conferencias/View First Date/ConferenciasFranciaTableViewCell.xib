@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellFrancia" rowHeight="104" id="KGk-i7-Jjw" customClass="ConferenciasFranciaTableViewCell" customModule="appFAMEX" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="331" height="104"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="331" height="104"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgBGCellConferencia" translatesAutoresizingMaskIntoConstraints="NO" id="o3j-WE-ktl">
+                        <rect key="frame" x="0.0" y="0.0" width="331" height="104"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZ4-xD-e47">
+                        <rect key="frame" x="8" y="8" width="207" height="71"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iRG-2b-j4P">
+                        <rect key="frame" x="8" y="79" width="184" height="25"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wpq-Xz-BZj">
+                        <rect key="frame" x="271" y="32" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="GWL-Gy-YUU"/>
+                            <constraint firstAttribute="width" constant="40" id="ir9-Ts-d7I"/>
+                        </constraints>
+                        <state key="normal">
+                            <imageReference key="image" image="plus" catalog="system" symbolScale="large"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lqw-UP-cjY">
+                        <rect key="frame" x="223" y="32" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="RFm-5s-RFB"/>
+                            <constraint firstAttribute="height" constant="40" id="sIn-kU-tPV"/>
+                        </constraints>
+                        <state key="normal">
+                            <imageReference key="image" image="info" catalog="system" symbolScale="large"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Wpq-Xz-BZj" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="00V-RV-jzs"/>
+                    <constraint firstAttribute="bottom" secondItem="iZ4-xD-e47" secondAttribute="bottom" constant="25" id="10s-OO-goI"/>
+                    <constraint firstAttribute="bottom" secondItem="o3j-WE-ktl" secondAttribute="bottom" id="1Na-uB-9JO"/>
+                    <constraint firstItem="lqw-UP-cjY" firstAttribute="leading" secondItem="iZ4-xD-e47" secondAttribute="trailing" constant="8" id="RlI-e8-fIb"/>
+                    <constraint firstItem="iRG-2b-j4P" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="T3t-cQ-hZf"/>
+                    <constraint firstItem="o3j-WE-ktl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="XMW-pW-W1S"/>
+                    <constraint firstAttribute="trailing" secondItem="Wpq-Xz-BZj" secondAttribute="trailing" constant="20" symbolic="YES" id="ZLE-7j-tyk"/>
+                    <constraint firstAttribute="trailing" secondItem="iRG-2b-j4P" secondAttribute="trailing" constant="139" id="c1Q-Tc-9cx"/>
+                    <constraint firstItem="o3j-WE-ktl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="fsb-BG-GNz"/>
+                    <constraint firstItem="iZ4-xD-e47" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="ioa-nV-xUj"/>
+                    <constraint firstItem="Wpq-Xz-BZj" firstAttribute="leading" secondItem="lqw-UP-cjY" secondAttribute="trailing" constant="8" symbolic="YES" id="kQX-px-bgn"/>
+                    <constraint firstItem="iZ4-xD-e47" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="ogf-ac-j4i"/>
+                    <constraint firstItem="lqw-UP-cjY" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="pnL-Ma-gzZ"/>
+                    <constraint firstItem="iRG-2b-j4P" firstAttribute="top" secondItem="iZ4-xD-e47" secondAttribute="bottom" id="rDE-Ld-6TI"/>
+                    <constraint firstAttribute="bottom" secondItem="iRG-2b-j4P" secondAttribute="bottom" id="zLp-NG-LGs"/>
+                    <constraint firstAttribute="trailing" secondItem="o3j-WE-ktl" secondAttribute="trailing" id="zvd-m8-Fmc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnAdd" destination="Wpq-Xz-BZj" id="Wns-LX-IrQ"/>
+                <outlet property="btnInfo" destination="lqw-UP-cjY" id="Xxl-Aw-wjN"/>
+                <outlet property="imgBGCellConferencia" destination="o3j-WE-ktl" id="HKF-6C-hKI"/>
+                <outlet property="lblTimeConferencia" destination="iRG-2b-j4P" id="2gb-5e-LxD"/>
+                <outlet property="lblTitleConferencia" destination="iZ4-xD-e47" id="qwp-l4-nBp"/>
+            </connections>
+            <point key="canvasLocation" x="148.55072463768118" y="170.75892857142856"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="imgBGCellConferencia" width="1082" height="138"/>
+        <image name="info" catalog="system" width="93" height="128"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
+    </resources>
+</document>

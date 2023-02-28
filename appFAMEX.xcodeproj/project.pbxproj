@@ -1,0 +1,1353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		023B21B4F1EE894C1B464542 /* Pods_appFAMEXTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64FD3F0BA86F72FB103E925 /* Pods_appFAMEXTests.framework */; };
+		6E0B7E394AD6785E2B5403CE /* Pods_appFAMEX_appFAMEXUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889E182DA9A0EB9B1F53A9C2 /* Pods_appFAMEX_appFAMEXUITests.framework */; };
+		7003409328CACDE300B3AA41 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7003409228CACDE300B3AA41 /* extension.swift */; };
+		7037A25B28BD9D5200DCB43C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7037A25A28BD9D5200DCB43C /* SignUpViewController.swift */; };
+		7095C6ED28C85335008088C2 /* inicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7095C6EC28C85335008088C2 /* inicioViewController.swift */; };
+		7095C6EF28C86282008088C2 /* famexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7095C6EE28C86282008088C2 /* famexViewController.swift */; };
+		BE14376B296C6FB5006C102B /* FAMEXText.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE14376A296C6FB5006C102B /* FAMEXText.swift */; };
+		BE1B01402941044C0004A1F6 /* ImagesProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1B013E2941044C0004A1F6 /* ImagesProfileCollectionViewCell.swift */; };
+		BE1B01412941044C0004A1F6 /* ImagesProfileCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1B013F2941044C0004A1F6 /* ImagesProfileCollectionViewCell.xib */; };
+		BE1E1F4C291C164C009D981C /* ConferenciasFranciaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1E1F4A291C164C009D981C /* ConferenciasFranciaTableViewCell.swift */; };
+		BE1E1F4D291C164C009D981C /* ConferenciasFranciaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1E1F4B291C164C009D981C /* ConferenciasFranciaTableViewCell.xib */; };
+		BE1E1F52291C361C009D981C /* detailConferenciaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1E1F51291C361C009D981C /* detailConferenciaViewController.swift */; };
+		BE28433C2922966E00BEF909 /* PopUpExpoEstaticaFranciaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE28433B2922966E00BEF909 /* PopUpExpoEstaticaFranciaViewController.swift */; };
+		BE2D6C35292E937B00F215FC /* expoEstaticaMexicoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2D6C34292E937B00F215FC /* expoEstaticaMexicoViewController.swift */; };
+		BE2D6C3B292EA21900F215FC /* chaletsMexicoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2D6C3A292EA21900F215FC /* chaletsMexicoViewController.swift */; };
+		BE2D6C46292EA9EA00F215FC /* firstDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2D6C45292EA9EA00F215FC /* firstDateViewController.swift */; };
+		BE31968228EC834C00C8A8B8 /* PopUpLideresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31968128EC834C00C8A8B8 /* PopUpLideresViewController.swift */; };
+		BE31968728EC836600C8A8B8 /* PopUpIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31968628EC836600C8A8B8 /* PopUpIDViewController.swift */; };
+		BE31968C28EC838200C8A8B8 /* PopUpExitoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31968B28EC838200C8A8B8 /* PopUpExitoViewController.swift */; };
+		BE3248072943AEA000D9EC0F /* hotelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3248062943AEA000D9EC0F /* hotelsViewController.swift */; };
+		BE3248112943B0E900D9EC0F /* HotelsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE32480F2943B0E900D9EC0F /* HotelsCollectionViewCell.swift */; };
+		BE3248122943B0E900D9EC0F /* HotelsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE3248102943B0E900D9EC0F /* HotelsCollectionViewCell.xib */; };
+		BE38A02329311DDA0078514B /* popUpAddMiItinerarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE38A02229311DDA0078514B /* popUpAddMiItinerarioViewController.swift */; };
+		BE413AA728CA28840000B418 /* eventosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE413AA628CA28840000B418 /* eventosViewController.swift */; };
+		BE413AAC28CA28A00000B418 /* itinerarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE413AAB28CA28A00000B418 /* itinerarioViewController.swift */; };
+		BE413AB128CA28BE0000B418 /* restaurantesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE413AB028CA28BE0000B418 /* restaurantesViewController.swift */; };
+		BE413AB628CA28FA0000B418 /* espectaculoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE413AB528CA28FA0000B418 /* espectaculoViewController.swift */; };
+		BE413ABB28CA290E0000B418 /* mumaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE413ABA28CA290E0000B418 /* mumaViewController.swift */; };
+		BE413AC028CA292E0000B418 /* accesosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE413ABF28CA292E0000B418 /* accesosViewController.swift */; };
+		BE413AC528CA294D0000B418 /* sanitizacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE413AC428CA294D0000B418 /* sanitizacionViewController.swift */; };
+		BE413ACA28CA29690000B418 /* prefamexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE413AC928CA29690000B418 /* prefamexViewController.swift */; };
+		BE413ACF28CA29860000B418 /* configuracionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE413ACE28CA29860000B418 /* configuracionViewController.swift */; };
+		BE413AD428CA2AEB0000B418 /* protocoloMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE413AD328CA2AEB0000B418 /* protocoloMenu.swift */; };
+		BE4585D7293E5D9000798F77 /* DateDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4585D6293E5D9000798F77 /* DateDecoder.swift */; };
+		BE4F828A28B7C7F2004F4DD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4F828928B7C7F2004F4DD4 /* AppDelegate.swift */; };
+		BE4F828C28B7C7F2004F4DD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4F828B28B7C7F2004F4DD4 /* SceneDelegate.swift */; };
+		BE4F828E28B7C7F2004F4DD4 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4F828D28B7C7F2004F4DD4 /* loginViewController.swift */; };
+		BE4F829628B7C7F3004F4DD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE4F829528B7C7F3004F4DD4 /* Assets.xcassets */; };
+		BE4F82A428B7C7F3004F4DD4 /* appFAMEXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4F82A328B7C7F3004F4DD4 /* appFAMEXTests.swift */; };
+		BE4F82AF28B7C7F3004F4DD4 /* appFAMEXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4F82AE28B7C7F3004F4DD4 /* appFAMEXUITests.swift */; };
+		BE505A6D291EBD1F00BE1959 /* secondDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE505A6C291EBD1F00BE1959 /* secondDateViewController.swift */; };
+		BE505A79291EC8DC00BE1959 /* expoEstaticaFranciaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE505A78291EC8DC00BE1959 /* expoEstaticaFranciaViewController.swift */; };
+		BE505A83291ED9E100BE1959 /* expoEstaticaFranciaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE505A81291ED9E100BE1959 /* expoEstaticaFranciaCollectionViewCell.swift */; };
+		BE505A84291ED9E100BE1959 /* expoEstaticaFranciaCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE505A82291ED9E100BE1959 /* expoEstaticaFranciaCollectionViewCell.xib */; };
+		BE5FBD7628EF2808005F812A /* MapaGeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5FBD7528EF2808005F812A /* MapaGeneralViewController.swift */; };
+		BE680DEB291D6ECF00BB8473 /* TableViewCellMiItinerario.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE680DE9291D6ECF00BB8473 /* TableViewCellMiItinerario.swift */; };
+		BE680DEC291D6ECF00BB8473 /* TableViewCellMiItinerario.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE680DEA291D6ECF00BB8473 /* TableViewCellMiItinerario.xib */; };
+		BE71F949290055F3005B328A /* videoEspectaculo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BE71F948290055F3005B328A /* videoEspectaculo.mp4 */; };
+		BE782E712915848800B7FD70 /* accesosprioritarios.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE782E702915848800B7FD70 /* accesosprioritarios.pdf */; };
+		BE782E76291588FE00B7FD70 /* puntodesanitizacion.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE782E75291588FE00B7FD70 /* puntodesanitizacion.pdf */; };
+		BE7FFF9E299BEFE1007EB39E /* Pods_appFAMEX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042E86597E080A9297137507 /* Pods_appFAMEX.framework */; };
+		BE870F972989C174007F0E99 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1B01362940FDCD0004A1F6 /* profileViewController.swift */; };
+		BE870FB32989CAB0007F0E99 /* franciaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE413AA128CA28660000B418 /* franciaViewController.swift */; };
+		BE95F5DA28CB7E210093D0A7 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE95F5D928CB7E210093D0A7 /* Launch Screen.storyboard */; };
+		BE95F5E328CB7EA20093D0A7 /* appFAMEX.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE95F5E128CB7EA20093D0A7 /* appFAMEX.xcdatamodeld */; };
+		BEB0D36A2926A978003CAED9 /* chaletsFranciaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0D3692926A978003CAED9 /* chaletsFranciaViewController.swift */; };
+		BEB0D3732926BC6C003CAED9 /* TableViewCellChalet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0D3712926BC6C003CAED9 /* TableViewCellChalet.swift */; };
+		BEB0D3742926BC6C003CAED9 /* TableViewCellChalet.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEB0D3722926BC6C003CAED9 /* TableViewCellChalet.xib */; };
+		BEB0D37A2926D1D4003CAED9 /* PopUpPreguntasFrecuentesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0D3792926D1D4003CAED9 /* PopUpPreguntasFrecuentesViewController.swift */; };
+		BEB0D38B2926D264003CAED9 /* PopUpContactoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0D38A2926D264003CAED9 /* PopUpContactoViewController.swift */; };
+		BEB0D3902926D296003CAED9 /* PopUpSobreLaAplicacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0D38F2926D296003CAED9 /* PopUpSobreLaAplicacionViewController.swift */; };
+		BEB0D3952926D2AD003CAED9 /* PoppTerminosYCondicionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0D3942926D2AD003CAED9 /* PoppTerminosYCondicionesViewController.swift */; };
+		BEB6FF0428E7552600C047D3 /* PopUpPuestosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB6FF0328E7552600C047D3 /* PopUpPuestosViewController.swift */; };
+		BEB9882629A022A500BDCF24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB9882829A022A500BDCF24 /* Main.storyboard */; };
+		BEC0F802299AD484002582D4 /* BienvenidaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC0F801299AD484002582D4 /* BienvenidaViewController.swift */; };
+		BED5325A28F0848F0061EE58 /* CustomCollectionViewCellRestaurantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED5325828F0848F0061EE58 /* CustomCollectionViewCellRestaurantes.swift */; };
+		BED5325B28F0848F0061EE58 /* CustomCollectionViewCellRestaurantes.xib in Resources */ = {isa = PBXBuildFile; fileRef = BED5325928F0848F0061EE58 /* CustomCollectionViewCellRestaurantes.xib */; };
+		BED5326428F47AA10061EE58 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED5326328F47AA10061EE58 /* MenuViewController.swift */; };
+		BED5326A28F486E90061EE58 /* TableViewCellMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED5326828F486E90061EE58 /* TableViewCellMenu.swift */; };
+		BED5326B28F486E90061EE58 /* TableViewCellMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BED5326928F486E90061EE58 /* TableViewCellMenu.xib */; };
+		BEE18F4D296F0D47004044AE /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE18F4C296F0D47004044AE /* MenuModel.swift */; };
+		BEF1FE7D2937C720000FF155 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BEF1FE7C2937C720000FF155 /* Alamofire */; };
+		BEF1FE822937C77F000FF155 /* NetworkingProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE812937C77F000FF155 /* NetworkingProvider.swift */; };
+		BEF1FE892937D41E000FF155 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE882937D41E000FF155 /* user.swift */; };
+		BEF7DD49294CE364000FA448 /* routesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7DD48294CE364000FA448 /* routesViewController.swift */; };
+		BEFB66712965E2F400B81BD3 /* Plateia.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEFB66702965E2F400B81BD3 /* Plateia.ttf */; };
+		BEFFA451299552D200A7A4F8 /* mapaGeneral.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BEFFA450299552D200A7A4F8 /* mapaGeneral.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE4F82A028B7C7F3004F4DD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE4F827E28B7C7F2004F4DD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE4F828528B7C7F2004F4DD4;
+			remoteInfo = appFAMEX;
+		};
+		BE4F82AB28B7C7F3004F4DD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE4F827E28B7C7F2004F4DD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE4F828528B7C7F2004F4DD4;
+			remoteInfo = appFAMEX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		042E86597E080A9297137507 /* Pods_appFAMEX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_appFAMEX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		243F0562C8305407CEC5A75C /* Pods-appFAMEXTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appFAMEXTests.debug.xcconfig"; path = "Target Support Files/Pods-appFAMEXTests/Pods-appFAMEXTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2ECF824DCDBDC904CAD99280 /* Pods-appFAMEX-appFAMEXUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appFAMEX-appFAMEXUITests.debug.xcconfig"; path = "Target Support Files/Pods-appFAMEX-appFAMEXUITests/Pods-appFAMEX-appFAMEXUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7003409228CACDE300B3AA41 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		7037A25A28BD9D5200DCB43C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		7095C6EC28C85335008088C2 /* inicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inicioViewController.swift; sourceTree = "<group>"; };
+		7095C6EE28C86282008088C2 /* famexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = famexViewController.swift; sourceTree = "<group>"; };
+		7EEAAB3725BF49DA7EF1F61F /* Pods-appFAMEX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appFAMEX.debug.xcconfig"; path = "Target Support Files/Pods-appFAMEX/Pods-appFAMEX.debug.xcconfig"; sourceTree = "<group>"; };
+		889E182DA9A0EB9B1F53A9C2 /* Pods_appFAMEX_appFAMEXUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_appFAMEX_appFAMEXUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E0C9163E03F88C2E4E0B20 /* Pods-appFAMEXTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appFAMEXTests.release.xcconfig"; path = "Target Support Files/Pods-appFAMEXTests/Pods-appFAMEXTests.release.xcconfig"; sourceTree = "<group>"; };
+		BE14376A296C6FB5006C102B /* FAMEXText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAMEXText.swift; sourceTree = "<group>"; };
+		BE1B01362940FDCD0004A1F6 /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		BE1B013E2941044C0004A1F6 /* ImagesProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesProfileCollectionViewCell.swift; sourceTree = "<group>"; };
+		BE1B013F2941044C0004A1F6 /* ImagesProfileCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImagesProfileCollectionViewCell.xib; sourceTree = "<group>"; };
+		BE1E1F4A291C164C009D981C /* ConferenciasFranciaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenciasFranciaTableViewCell.swift; sourceTree = "<group>"; };
+		BE1E1F4B291C164C009D981C /* ConferenciasFranciaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConferenciasFranciaTableViewCell.xib; sourceTree = "<group>"; };
+		BE1E1F51291C361C009D981C /* detailConferenciaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailConferenciaViewController.swift; sourceTree = "<group>"; };
+		BE28433B2922966E00BEF909 /* PopUpExpoEstaticaFranciaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpExpoEstaticaFranciaViewController.swift; sourceTree = "<group>"; };
+		BE2D6C34292E937B00F215FC /* expoEstaticaMexicoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = expoEstaticaMexicoViewController.swift; sourceTree = "<group>"; };
+		BE2D6C3A292EA21900F215FC /* chaletsMexicoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chaletsMexicoViewController.swift; sourceTree = "<group>"; };
+		BE2D6C45292EA9EA00F215FC /* firstDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firstDateViewController.swift; sourceTree = "<group>"; };
+		BE31968128EC834C00C8A8B8 /* PopUpLideresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpLideresViewController.swift; sourceTree = "<group>"; };
+		BE31968628EC836600C8A8B8 /* PopUpIDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpIDViewController.swift; sourceTree = "<group>"; };
+		BE31968B28EC838200C8A8B8 /* PopUpExitoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpExitoViewController.swift; sourceTree = "<group>"; };
+		BE3248062943AEA000D9EC0F /* hotelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hotelsViewController.swift; sourceTree = "<group>"; };
+		BE32480F2943B0E900D9EC0F /* HotelsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsCollectionViewCell.swift; sourceTree = "<group>"; };
+		BE3248102943B0E900D9EC0F /* HotelsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HotelsCollectionViewCell.xib; sourceTree = "<group>"; };
+		BE38A02229311DDA0078514B /* popUpAddMiItinerarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popUpAddMiItinerarioViewController.swift; sourceTree = "<group>"; };
+		BE413AA128CA28660000B418 /* franciaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = franciaViewController.swift; sourceTree = "<group>"; };
+		BE413AA628CA28840000B418 /* eventosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventosViewController.swift; sourceTree = "<group>"; };
+		BE413AAB28CA28A00000B418 /* itinerarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itinerarioViewController.swift; sourceTree = "<group>"; };
+		BE413AB028CA28BE0000B418 /* restaurantesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restaurantesViewController.swift; sourceTree = "<group>"; };
+		BE413AB528CA28FA0000B418 /* espectaculoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = espectaculoViewController.swift; sourceTree = "<group>"; };
+		BE413ABA28CA290E0000B418 /* mumaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mumaViewController.swift; sourceTree = "<group>"; };
+		BE413ABF28CA292E0000B418 /* accesosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accesosViewController.swift; sourceTree = "<group>"; };
+		BE413AC428CA294D0000B418 /* sanitizacionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sanitizacionViewController.swift; sourceTree = "<group>"; };
+		BE413AC928CA29690000B418 /* prefamexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prefamexViewController.swift; sourceTree = "<group>"; };
+		BE413ACE28CA29860000B418 /* configuracionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = configuracionViewController.swift; sourceTree = "<group>"; };
+		BE413AD328CA2AEB0000B418 /* protocoloMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocoloMenu.swift; sourceTree = "<group>"; };
+		BE4585D6293E5D9000798F77 /* DateDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateDecoder.swift; sourceTree = "<group>"; };
+		BE4F828628B7C7F2004F4DD4 /* appFAMEX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appFAMEX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE4F828928B7C7F2004F4DD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE4F828B28B7C7F2004F4DD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BE4F828D28B7C7F2004F4DD4 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		BE4F829528B7C7F3004F4DD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE4F829A28B7C7F3004F4DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE4F829F28B7C7F3004F4DD4 /* appFAMEXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appFAMEXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE4F82A328B7C7F3004F4DD4 /* appFAMEXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appFAMEXTests.swift; sourceTree = "<group>"; };
+		BE4F82A528B7C7F3004F4DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE4F82AA28B7C7F3004F4DD4 /* appFAMEXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appFAMEXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE4F82AE28B7C7F3004F4DD4 /* appFAMEXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appFAMEXUITests.swift; sourceTree = "<group>"; };
+		BE4F82B028B7C7F3004F4DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE505A6C291EBD1F00BE1959 /* secondDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondDateViewController.swift; sourceTree = "<group>"; };
+		BE505A78291EC8DC00BE1959 /* expoEstaticaFranciaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = expoEstaticaFranciaViewController.swift; sourceTree = "<group>"; };
+		BE505A81291ED9E100BE1959 /* expoEstaticaFranciaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = expoEstaticaFranciaCollectionViewCell.swift; sourceTree = "<group>"; };
+		BE505A82291ED9E100BE1959 /* expoEstaticaFranciaCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = expoEstaticaFranciaCollectionViewCell.xib; sourceTree = "<group>"; };
+		BE5FBD7528EF2808005F812A /* MapaGeneralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaGeneralViewController.swift; sourceTree = "<group>"; };
+		BE680DE9291D6ECF00BB8473 /* TableViewCellMiItinerario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellMiItinerario.swift; sourceTree = "<group>"; };
+		BE680DEA291D6ECF00BB8473 /* TableViewCellMiItinerario.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCellMiItinerario.xib; sourceTree = "<group>"; };
+		BE71F948290055F3005B328A /* videoEspectaculo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = videoEspectaculo.mp4; sourceTree = "<group>"; };
+		BE782E702915848800B7FD70 /* accesosprioritarios.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = accesosprioritarios.pdf; sourceTree = "<group>"; };
+		BE782E75291588FE00B7FD70 /* puntodesanitizacion.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = puntodesanitizacion.pdf; sourceTree = "<group>"; };
+		BE95F5D928CB7E210093D0A7 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		BE95F5E228CB7EA20093D0A7 /* appFAMEX.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = appFAMEX.xcdatamodel; sourceTree = "<group>"; };
+		BEB0D3692926A978003CAED9 /* chaletsFranciaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chaletsFranciaViewController.swift; sourceTree = "<group>"; };
+		BEB0D3712926BC6C003CAED9 /* TableViewCellChalet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellChalet.swift; sourceTree = "<group>"; };
+		BEB0D3722926BC6C003CAED9 /* TableViewCellChalet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCellChalet.xib; sourceTree = "<group>"; };
+		BEB0D3792926D1D4003CAED9 /* PopUpPreguntasFrecuentesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpPreguntasFrecuentesViewController.swift; sourceTree = "<group>"; };
+		BEB0D38A2926D264003CAED9 /* PopUpContactoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpContactoViewController.swift; sourceTree = "<group>"; };
+		BEB0D38F2926D296003CAED9 /* PopUpSobreLaAplicacionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpSobreLaAplicacionViewController.swift; sourceTree = "<group>"; };
+		BEB0D3942926D2AD003CAED9 /* PoppTerminosYCondicionesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoppTerminosYCondicionesViewController.swift; sourceTree = "<group>"; };
+		BEB6FF0328E7552600C047D3 /* PopUpPuestosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpPuestosViewController.swift; sourceTree = "<group>"; };
+		BEB9882729A022A500BDCF24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEC0F801299AD484002582D4 /* BienvenidaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BienvenidaViewController.swift; sourceTree = "<group>"; };
+		BED5325828F0848F0061EE58 /* CustomCollectionViewCellRestaurantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCellRestaurantes.swift; sourceTree = "<group>"; };
+		BED5325928F0848F0061EE58 /* CustomCollectionViewCellRestaurantes.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCollectionViewCellRestaurantes.xib; sourceTree = "<group>"; };
+		BED5326328F47AA10061EE58 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		BED5326828F486E90061EE58 /* TableViewCellMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellMenu.swift; sourceTree = "<group>"; };
+		BED5326928F486E90061EE58 /* TableViewCellMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCellMenu.xib; sourceTree = "<group>"; };
+		BEE18F4C296F0D47004044AE /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		BEF1FE812937C77F000FF155 /* NetworkingProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingProvider.swift; sourceTree = "<group>"; };
+		BEF1FE882937D41E000FF155 /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		BEF7DD48294CE364000FA448 /* routesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = routesViewController.swift; sourceTree = "<group>"; };
+		BEFB66702965E2F400B81BD3 /* Plateia.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Plateia.ttf; sourceTree = "<group>"; };
+		BEFFA450299552D200A7A4F8 /* mapaGeneral.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = mapaGeneral.pdf; sourceTree = "<group>"; };
+		BEFFA458299553C400A7A4F8 /* videoEspectaculo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = videoEspectaculo.mp4; sourceTree = "<group>"; };
+		CE41D424DB3CF800E497F5E2 /* Pods-appFAMEX-appFAMEXUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appFAMEX-appFAMEXUITests.release.xcconfig"; path = "Target Support Files/Pods-appFAMEX-appFAMEXUITests/Pods-appFAMEX-appFAMEXUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D64FD3F0BA86F72FB103E925 /* Pods_appFAMEXTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_appFAMEXTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE738BBC6D91DECCE2322BA6 /* Pods-appFAMEX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appFAMEX.release.xcconfig"; path = "Target Support Files/Pods-appFAMEX/Pods-appFAMEX.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE4F828328B7C7F2004F4DD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7FFF9E299BEFE1007EB39E /* Pods_appFAMEX.framework in Frameworks */,
+				BEF1FE7D2937C720000FF155 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE4F829C28B7C7F3004F4DD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				023B21B4F1EE894C1B464542 /* Pods_appFAMEXTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE4F82A728B7C7F3004F4DD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E0B7E394AD6785E2B5403CE /* Pods_appFAMEX_appFAMEXUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C07F7BC956768011A18789D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				042E86597E080A9297137507 /* Pods_appFAMEX.framework */,
+				889E182DA9A0EB9B1F53A9C2 /* Pods_appFAMEX_appFAMEXUITests.framework */,
+				D64FD3F0BA86F72FB103E925 /* Pods_appFAMEXTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7003409128CABEF900B3AA41 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				7003409228CACDE300B3AA41 /* extension.swift */,
+				BE413AD328CA2AEB0000B418 /* protocoloMenu.swift */,
+				BE14376A296C6FB5006C102B /* FAMEXText.swift */,
+				BEE18F4C296F0D47004044AE /* MenuModel.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		7037A25928BD9CD700DCB43C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BE42AA8628FEEA51004A0A08 /* View Login */,
+				BE42AA8728FEEA6C004A0A08 /* View CreateUsr */,
+				BED5325F28F478400061EE58 /* View Menu */,
+				BE1B01352940FD9A0004A1F6 /* view Profile */,
+				BE42AA8828FEEAA8004A0A08 /* View Inicio */,
+				BE42AA8928FEEAC1004A0A08 /* View Famex */,
+				BEB6FF0228E754DC00C047D3 /* View Francia */,
+				BE5FBD6F28EF15AF005F812A /* View Eventos */,
+				BE42AA8A28FEEAD8004A0A08 /* View Itinerario */,
+				BED5324C28F083A90061EE58 /* View Restaurantes */,
+				BE42AA8B28FEEAF4004A0A08 /* View Espectaculo */,
+				BE42AA8C28FEEB10004A0A08 /* View Muma */,
+				BE42AA8D28FEEB21004A0A08 /* View Accesos */,
+				BE42AA8E28FEEB35004A0A08 /* View Sanitizacion */,
+				BE42AA8F28FEEB4A004A0A08 /* View PreFAMEX */,
+				BE42AA9028FEEB5E004A0A08 /* View Configuracion */,
+				BE38A02129311D260078514B /* view Pop Ups */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BE1B01352940FD9A0004A1F6 /* view Profile */ = {
+			isa = PBXGroup;
+			children = (
+				BE1B01362940FDCD0004A1F6 /* profileViewController.swift */,
+				BE1B013E2941044C0004A1F6 /* ImagesProfileCollectionViewCell.swift */,
+				BE1B013F2941044C0004A1F6 /* ImagesProfileCollectionViewCell.xib */,
+			);
+			path = "view Profile";
+			sourceTree = "<group>";
+		};
+		BE1E1F46291C1591009D981C /* View First Date */ = {
+			isa = PBXGroup;
+			children = (
+				BE2D6C45292EA9EA00F215FC /* firstDateViewController.swift */,
+				BE505A6C291EBD1F00BE1959 /* secondDateViewController.swift */,
+				BE1E1F4A291C164C009D981C /* ConferenciasFranciaTableViewCell.swift */,
+				BE1E1F4B291C164C009D981C /* ConferenciasFranciaTableViewCell.xib */,
+			);
+			path = "View First Date";
+			sourceTree = "<group>";
+		};
+		BE28433A292295BB00BEF909 /* View PopUp Exposicion Estatica Francia */ = {
+			isa = PBXGroup;
+			children = (
+				BE28433B2922966E00BEF909 /* PopUpExpoEstaticaFranciaViewController.swift */,
+			);
+			path = "View PopUp Exposicion Estatica Francia";
+			sourceTree = "<group>";
+		};
+		BE2D6C30292E930F00F215FC /* View Exposicion Estatica Mexico */ = {
+			isa = PBXGroup;
+			children = (
+				BE2D6C34292E937B00F215FC /* expoEstaticaMexicoViewController.swift */,
+			);
+			path = "View Exposicion Estatica Mexico";
+			sourceTree = "<group>";
+		};
+		BE2D6C39292EA1F600F215FC /* View Chalets Mexico */ = {
+			isa = PBXGroup;
+			children = (
+				BE2D6C3A292EA21900F215FC /* chaletsMexicoViewController.swift */,
+			);
+			path = "View Chalets Mexico";
+			sourceTree = "<group>";
+		};
+		BE3248052943AE6B00D9EC0F /* View Hotels */ = {
+			isa = PBXGroup;
+			children = (
+				BE3248062943AEA000D9EC0F /* hotelsViewController.swift */,
+				BE32480F2943B0E900D9EC0F /* HotelsCollectionViewCell.swift */,
+				BE3248102943B0E900D9EC0F /* HotelsCollectionViewCell.xib */,
+			);
+			path = "View Hotels";
+			sourceTree = "<group>";
+		};
+		BE38A02129311D260078514B /* view Pop Ups */ = {
+			isa = PBXGroup;
+			children = (
+				BE38A02229311DDA0078514B /* popUpAddMiItinerarioViewController.swift */,
+			);
+			path = "view Pop Ups";
+			sourceTree = "<group>";
+		};
+		BE42AA8628FEEA51004A0A08 /* View Login */ = {
+			isa = PBXGroup;
+			children = (
+				BE4F828D28B7C7F2004F4DD4 /* loginViewController.swift */,
+			);
+			path = "View Login";
+			sourceTree = "<group>";
+		};
+		BE42AA8728FEEA6C004A0A08 /* View CreateUsr */ = {
+			isa = PBXGroup;
+			children = (
+				7037A25A28BD9D5200DCB43C /* SignUpViewController.swift */,
+			);
+			path = "View CreateUsr";
+			sourceTree = "<group>";
+		};
+		BE42AA8828FEEAA8004A0A08 /* View Inicio */ = {
+			isa = PBXGroup;
+			children = (
+				7095C6EC28C85335008088C2 /* inicioViewController.swift */,
+			);
+			path = "View Inicio";
+			sourceTree = "<group>";
+		};
+		BE42AA8928FEEAC1004A0A08 /* View Famex */ = {
+			isa = PBXGroup;
+			children = (
+				7095C6EE28C86282008088C2 /* famexViewController.swift */,
+			);
+			path = "View Famex";
+			sourceTree = "<group>";
+		};
+		BE42AA8A28FEEAD8004A0A08 /* View Itinerario */ = {
+			isa = PBXGroup;
+			children = (
+				BE413AAB28CA28A00000B418 /* itinerarioViewController.swift */,
+				BE680DE9291D6ECF00BB8473 /* TableViewCellMiItinerario.swift */,
+				BE680DEA291D6ECF00BB8473 /* TableViewCellMiItinerario.xib */,
+			);
+			path = "View Itinerario";
+			sourceTree = "<group>";
+		};
+		BE42AA8B28FEEAF4004A0A08 /* View Espectaculo */ = {
+			isa = PBXGroup;
+			children = (
+				BE71F948290055F3005B328A /* videoEspectaculo.mp4 */,
+				BEFFA458299553C400A7A4F8 /* videoEspectaculo.mp4 */,
+				BE413AB528CA28FA0000B418 /* espectaculoViewController.swift */,
+			);
+			path = "View Espectaculo";
+			sourceTree = "<group>";
+		};
+		BE42AA8C28FEEB10004A0A08 /* View Muma */ = {
+			isa = PBXGroup;
+			children = (
+				BE413ABA28CA290E0000B418 /* mumaViewController.swift */,
+			);
+			path = "View Muma";
+			sourceTree = "<group>";
+		};
+		BE42AA8D28FEEB21004A0A08 /* View Accesos */ = {
+			isa = PBXGroup;
+			children = (
+				BE782E702915848800B7FD70 /* accesosprioritarios.pdf */,
+				BE413ABF28CA292E0000B418 /* accesosViewController.swift */,
+			);
+			path = "View Accesos";
+			sourceTree = "<group>";
+		};
+		BE42AA8E28FEEB35004A0A08 /* View Sanitizacion */ = {
+			isa = PBXGroup;
+			children = (
+				BE782E75291588FE00B7FD70 /* puntodesanitizacion.pdf */,
+				BE413AC428CA294D0000B418 /* sanitizacionViewController.swift */,
+			);
+			path = "View Sanitizacion";
+			sourceTree = "<group>";
+		};
+		BE42AA8F28FEEB4A004A0A08 /* View PreFAMEX */ = {
+			isa = PBXGroup;
+			children = (
+				BE413AC928CA29690000B418 /* prefamexViewController.swift */,
+				BE3248052943AE6B00D9EC0F /* View Hotels */,
+				BEF7DD47294CE307000FA448 /* View Routes */,
+			);
+			path = "View PreFAMEX";
+			sourceTree = "<group>";
+		};
+		BE42AA9028FEEB5E004A0A08 /* View Configuracion */ = {
+			isa = PBXGroup;
+			children = (
+				BEB0D3782926D187003CAED9 /* View PopUps Configuracion */,
+				BE413ACE28CA29860000B418 /* configuracionViewController.swift */,
+			);
+			path = "View Configuracion";
+			sourceTree = "<group>";
+		};
+		BE4585D5293E5D4B00798F77 /* Decoder */ = {
+			isa = PBXGroup;
+			children = (
+				BE4585D6293E5D9000798F77 /* DateDecoder.swift */,
+			);
+			path = Decoder;
+			sourceTree = "<group>";
+		};
+		BE4F827D28B7C7F2004F4DD4 = {
+			isa = PBXGroup;
+			children = (
+				BE4F828828B7C7F2004F4DD4 /* appFAMEX */,
+				BE4F82A228B7C7F3004F4DD4 /* appFAMEXTests */,
+				BE4F82AD28B7C7F3004F4DD4 /* appFAMEXUITests */,
+				BE4F828728B7C7F2004F4DD4 /* Products */,
+				D337C259F7EB8F508C860073 /* Pods */,
+				6C07F7BC956768011A18789D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE4F828728B7C7F2004F4DD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE4F828628B7C7F2004F4DD4 /* appFAMEX.app */,
+				BE4F829F28B7C7F3004F4DD4 /* appFAMEXTests.xctest */,
+				BE4F82AA28B7C7F3004F4DD4 /* appFAMEXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE4F828828B7C7F2004F4DD4 /* appFAMEX */ = {
+			isa = PBXGroup;
+			children = (
+				BEC0F7F8299AD264002582D4 /* Bienvenida */,
+				BEFB666E2965E25000B81BD3 /* Resources */,
+				7003409128CABEF900B3AA41 /* Util */,
+				BEA1679C28C0FDD100E031B1 /* Model */,
+				BEA1679B28C0FDAD00E031B1 /* View */,
+				7037A25928BD9CD700DCB43C /* Controller */,
+				BEF1FE862937D394000FF155 /* Networking */,
+				BE4F828B28B7C7F2004F4DD4 /* SceneDelegate.swift */,
+				BE4F828928B7C7F2004F4DD4 /* AppDelegate.swift */,
+				BE4F829528B7C7F3004F4DD4 /* Assets.xcassets */,
+				BE4F829A28B7C7F3004F4DD4 /* Info.plist */,
+			);
+			path = appFAMEX;
+			sourceTree = "<group>";
+		};
+		BE4F82A228B7C7F3004F4DD4 /* appFAMEXTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE4F82A328B7C7F3004F4DD4 /* appFAMEXTests.swift */,
+				BE4F82A528B7C7F3004F4DD4 /* Info.plist */,
+			);
+			path = appFAMEXTests;
+			sourceTree = "<group>";
+		};
+		BE4F82AD28B7C7F3004F4DD4 /* appFAMEXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE4F82AE28B7C7F3004F4DD4 /* appFAMEXUITests.swift */,
+				BE4F82B028B7C7F3004F4DD4 /* Info.plist */,
+			);
+			path = appFAMEXUITests;
+			sourceTree = "<group>";
+		};
+		BE505A74291EC85D00BE1959 /* View Exposicion Estatica Francia */ = {
+			isa = PBXGroup;
+			children = (
+				BE505A78291EC8DC00BE1959 /* expoEstaticaFranciaViewController.swift */,
+				BE505A81291ED9E100BE1959 /* expoEstaticaFranciaCollectionViewCell.swift */,
+				BE505A82291ED9E100BE1959 /* expoEstaticaFranciaCollectionViewCell.xib */,
+				BE28433A292295BB00BEF909 /* View PopUp Exposicion Estatica Francia */,
+			);
+			path = "View Exposicion Estatica Francia";
+			sourceTree = "<group>";
+		};
+		BE505A7D291EC8EE00BE1959 /* View PopUps Francia */ = {
+			isa = PBXGroup;
+			children = (
+				BEB6FF0328E7552600C047D3 /* PopUpPuestosViewController.swift */,
+				BE31968128EC834C00C8A8B8 /* PopUpLideresViewController.swift */,
+				BE31968628EC836600C8A8B8 /* PopUpIDViewController.swift */,
+				BE31968B28EC838200C8A8B8 /* PopUpExitoViewController.swift */,
+			);
+			path = "View PopUps Francia";
+			sourceTree = "<group>";
+		};
+		BE5FBD6F28EF15AF005F812A /* View Eventos */ = {
+			isa = PBXGroup;
+			children = (
+				BEFFA450299552D200A7A4F8 /* mapaGeneral.pdf */,
+				BE5FBD7528EF2808005F812A /* MapaGeneralViewController.swift */,
+				BE413AA628CA28840000B418 /* eventosViewController.swift */,
+				BE2D6C39292EA1F600F215FC /* View Chalets Mexico */,
+				BE2D6C30292E930F00F215FC /* View Exposicion Estatica Mexico */,
+			);
+			path = "View Eventos";
+			sourceTree = "<group>";
+		};
+		BE66BEC5291ABEF80009BD6E /* View Conferencias */ = {
+			isa = PBXGroup;
+			children = (
+				BE1E1F51291C361C009D981C /* detailConferenciaViewController.swift */,
+				BE1E1F46291C1591009D981C /* View First Date */,
+			);
+			path = "View Conferencias";
+			sourceTree = "<group>";
+		};
+		BEA1679B28C0FDAD00E031B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BEB9882829A022A500BDCF24 /* Main.storyboard */,
+				BE95F5D928CB7E210093D0A7 /* Launch Screen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BEA1679C28C0FDD100E031B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE95F5E128CB7EA20093D0A7 /* appFAMEX.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BEB0D3682926A928003CAED9 /* View Chalets Francia */ = {
+			isa = PBXGroup;
+			children = (
+				BEB0D3692926A978003CAED9 /* chaletsFranciaViewController.swift */,
+				BEB0D3712926BC6C003CAED9 /* TableViewCellChalet.swift */,
+				BEB0D3722926BC6C003CAED9 /* TableViewCellChalet.xib */,
+			);
+			path = "View Chalets Francia";
+			sourceTree = "<group>";
+		};
+		BEB0D3782926D187003CAED9 /* View PopUps Configuracion */ = {
+			isa = PBXGroup;
+			children = (
+				BEB0D3792926D1D4003CAED9 /* PopUpPreguntasFrecuentesViewController.swift */,
+				BEB0D38A2926D264003CAED9 /* PopUpContactoViewController.swift */,
+				BEB0D38F2926D296003CAED9 /* PopUpSobreLaAplicacionViewController.swift */,
+				BEB0D3942926D2AD003CAED9 /* PoppTerminosYCondicionesViewController.swift */,
+			);
+			path = "View PopUps Configuracion";
+			sourceTree = "<group>";
+		};
+		BEB6FF0228E754DC00C047D3 /* View Francia */ = {
+			isa = PBXGroup;
+			children = (
+				BE413AA128CA28660000B418 /* franciaViewController.swift */,
+				BE66BEC5291ABEF80009BD6E /* View Conferencias */,
+				BE505A74291EC85D00BE1959 /* View Exposicion Estatica Francia */,
+				BEB0D3682926A928003CAED9 /* View Chalets Francia */,
+				BE505A7D291EC8EE00BE1959 /* View PopUps Francia */,
+			);
+			path = "View Francia";
+			sourceTree = "<group>";
+		};
+		BEC0F7F8299AD264002582D4 /* Bienvenida */ = {
+			isa = PBXGroup;
+			children = (
+				BEC0F801299AD484002582D4 /* BienvenidaViewController.swift */,
+			);
+			path = Bienvenida;
+			sourceTree = "<group>";
+		};
+		BED5324C28F083A90061EE58 /* View Restaurantes */ = {
+			isa = PBXGroup;
+			children = (
+				BE413AB028CA28BE0000B418 /* restaurantesViewController.swift */,
+				BED5325828F0848F0061EE58 /* CustomCollectionViewCellRestaurantes.swift */,
+				BED5325928F0848F0061EE58 /* CustomCollectionViewCellRestaurantes.xib */,
+			);
+			path = "View Restaurantes";
+			sourceTree = "<group>";
+		};
+		BED5325F28F478400061EE58 /* View Menu */ = {
+			isa = PBXGroup;
+			children = (
+				BED5326328F47AA10061EE58 /* MenuViewController.swift */,
+				BED5326828F486E90061EE58 /* TableViewCellMenu.swift */,
+				BED5326928F486E90061EE58 /* TableViewCellMenu.xib */,
+			);
+			path = "View Menu";
+			sourceTree = "<group>";
+		};
+		BEF1FE862937D394000FF155 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				BE4585D5293E5D4B00798F77 /* Decoder */,
+				BEF1FE872937D3C6000FF155 /* Data */,
+				BEF1FE812937C77F000FF155 /* NetworkingProvider.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		BEF1FE872937D3C6000FF155 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BEF1FE882937D41E000FF155 /* user.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		BEF7DD47294CE307000FA448 /* View Routes */ = {
+			isa = PBXGroup;
+			children = (
+				BEF7DD48294CE364000FA448 /* routesViewController.swift */,
+			);
+			path = "View Routes";
+			sourceTree = "<group>";
+		};
+		BEFB666E2965E25000B81BD3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BEFB666F2965E25F00B81BD3 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BEFB666F2965E25F00B81BD3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BEFB66702965E2F400B81BD3 /* Plateia.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D337C259F7EB8F508C860073 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7EEAAB3725BF49DA7EF1F61F /* Pods-appFAMEX.debug.xcconfig */,
+				FE738BBC6D91DECCE2322BA6 /* Pods-appFAMEX.release.xcconfig */,
+				2ECF824DCDBDC904CAD99280 /* Pods-appFAMEX-appFAMEXUITests.debug.xcconfig */,
+				CE41D424DB3CF800E497F5E2 /* Pods-appFAMEX-appFAMEXUITests.release.xcconfig */,
+				243F0562C8305407CEC5A75C /* Pods-appFAMEXTests.debug.xcconfig */,
+				89E0C9163E03F88C2E4E0B20 /* Pods-appFAMEXTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE4F828528B7C7F2004F4DD4 /* appFAMEX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE4F82B328B7C7F3004F4DD4 /* Build configuration list for PBXNativeTarget "appFAMEX" */;
+			buildPhases = (
+				874ACD25F50263FFB2147B6C /* [CP] Check Pods Manifest.lock */,
+				BE4F828228B7C7F2004F4DD4 /* Sources */,
+				BE4F828328B7C7F2004F4DD4 /* Frameworks */,
+				BE4F828428B7C7F2004F4DD4 /* Resources */,
+				4DBFC5209E75CCF0885CC2F6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = appFAMEX;
+			packageProductDependencies = (
+				BEF1FE7C2937C720000FF155 /* Alamofire */,
+			);
+			productName = appFAMEX;
+			productReference = BE4F828628B7C7F2004F4DD4 /* appFAMEX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE4F829E28B7C7F3004F4DD4 /* appFAMEXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE4F82B628B7C7F3004F4DD4 /* Build configuration list for PBXNativeTarget "appFAMEXTests" */;
+			buildPhases = (
+				1C8DB7814A731F5F2C65FD1A /* [CP] Check Pods Manifest.lock */,
+				BE4F829B28B7C7F3004F4DD4 /* Sources */,
+				BE4F829C28B7C7F3004F4DD4 /* Frameworks */,
+				BE4F829D28B7C7F3004F4DD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE4F82A128B7C7F3004F4DD4 /* PBXTargetDependency */,
+			);
+			name = appFAMEXTests;
+			productName = appFAMEXTests;
+			productReference = BE4F829F28B7C7F3004F4DD4 /* appFAMEXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE4F82A928B7C7F3004F4DD4 /* appFAMEXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE4F82B928B7C7F3004F4DD4 /* Build configuration list for PBXNativeTarget "appFAMEXUITests" */;
+			buildPhases = (
+				3A00E8AAD90ED6801E24396B /* [CP] Check Pods Manifest.lock */,
+				BE4F82A628B7C7F3004F4DD4 /* Sources */,
+				BE4F82A728B7C7F3004F4DD4 /* Frameworks */,
+				BE4F82A828B7C7F3004F4DD4 /* Resources */,
+				1CB9BC4E4355C5E1ED9E8AFB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE4F82AC28B7C7F3004F4DD4 /* PBXTargetDependency */,
+			);
+			name = appFAMEXUITests;
+			productName = appFAMEXUITests;
+			productReference = BE4F82AA28B7C7F3004F4DD4 /* appFAMEXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE4F827E28B7C7F2004F4DD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BE4F828528B7C7F2004F4DD4 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					BE4F829E28B7C7F3004F4DD4 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BE4F828528B7C7F2004F4DD4;
+					};
+					BE4F82A928B7C7F3004F4DD4 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BE4F828528B7C7F2004F4DD4;
+					};
+				};
+			};
+			buildConfigurationList = BE4F828128B7C7F2004F4DD4 /* Build configuration list for PBXProject "appFAMEX" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+				es,
+				Base,
+			);
+			mainGroup = BE4F827D28B7C7F2004F4DD4;
+			packageReferences = (
+				BEF1FE7B2937C720000FF155 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = BE4F828728B7C7F2004F4DD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE4F828528B7C7F2004F4DD4 /* appFAMEX */,
+				BE4F829E28B7C7F3004F4DD4 /* appFAMEXTests */,
+				BE4F82A928B7C7F3004F4DD4 /* appFAMEXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE4F828428B7C7F2004F4DD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE71F949290055F3005B328A /* videoEspectaculo.mp4 in Resources */,
+				BEB0D3742926BC6C003CAED9 /* TableViewCellChalet.xib in Resources */,
+				BE95F5DA28CB7E210093D0A7 /* Launch Screen.storyboard in Resources */,
+				BE1B01412941044C0004A1F6 /* ImagesProfileCollectionViewCell.xib in Resources */,
+				BED5326B28F486E90061EE58 /* TableViewCellMenu.xib in Resources */,
+				BE3248122943B0E900D9EC0F /* HotelsCollectionViewCell.xib in Resources */,
+				BEFB66712965E2F400B81BD3 /* Plateia.ttf in Resources */,
+				BEB9882629A022A500BDCF24 /* Main.storyboard in Resources */,
+				BE4F829628B7C7F3004F4DD4 /* Assets.xcassets in Resources */,
+				BE1E1F4D291C164C009D981C /* ConferenciasFranciaTableViewCell.xib in Resources */,
+				BE680DEC291D6ECF00BB8473 /* TableViewCellMiItinerario.xib in Resources */,
+				BE782E76291588FE00B7FD70 /* puntodesanitizacion.pdf in Resources */,
+				BED5325B28F0848F0061EE58 /* CustomCollectionViewCellRestaurantes.xib in Resources */,
+				BE782E712915848800B7FD70 /* accesosprioritarios.pdf in Resources */,
+				BEFFA451299552D200A7A4F8 /* mapaGeneral.pdf in Resources */,
+				BE505A84291ED9E100BE1959 /* expoEstaticaFranciaCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE4F829D28B7C7F3004F4DD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE4F82A828B7C7F3004F4DD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C8DB7814A731F5F2C65FD1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-appFAMEXTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CB9BC4E4355C5E1ED9E8AFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appFAMEX-appFAMEXUITests/Pods-appFAMEX-appFAMEXUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appFAMEX-appFAMEXUITests/Pods-appFAMEX-appFAMEXUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-appFAMEX-appFAMEXUITests/Pods-appFAMEX-appFAMEXUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A00E8AAD90ED6801E24396B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-appFAMEX-appFAMEXUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DBFC5209E75CCF0885CC2F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appFAMEX/Pods-appFAMEX-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appFAMEX/Pods-appFAMEX-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-appFAMEX/Pods-appFAMEX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		874ACD25F50263FFB2147B6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-appFAMEX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE4F828228B7C7F2004F4DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE413ACF28CA29860000B418 /* configuracionViewController.swift in Sources */,
+				BE28433C2922966E00BEF909 /* PopUpExpoEstaticaFranciaViewController.swift in Sources */,
+				BEE18F4D296F0D47004044AE /* MenuModel.swift in Sources */,
+				BEF7DD49294CE364000FA448 /* routesViewController.swift in Sources */,
+				BEB0D37A2926D1D4003CAED9 /* PopUpPreguntasFrecuentesViewController.swift in Sources */,
+				BEB0D3902926D296003CAED9 /* PopUpSobreLaAplicacionViewController.swift in Sources */,
+				BE413ABB28CA290E0000B418 /* mumaViewController.swift in Sources */,
+				7003409328CACDE300B3AA41 /* extension.swift in Sources */,
+				BE2D6C3B292EA21900F215FC /* chaletsMexicoViewController.swift in Sources */,
+				BE4585D7293E5D9000798F77 /* DateDecoder.swift in Sources */,
+				BE14376B296C6FB5006C102B /* FAMEXText.swift in Sources */,
+				BE4F828E28B7C7F2004F4DD4 /* loginViewController.swift in Sources */,
+				BEF1FE822937C77F000FF155 /* NetworkingProvider.swift in Sources */,
+				BED5325A28F0848F0061EE58 /* CustomCollectionViewCellRestaurantes.swift in Sources */,
+				7095C6ED28C85335008088C2 /* inicioViewController.swift in Sources */,
+				BE31968C28EC838200C8A8B8 /* PopUpExitoViewController.swift in Sources */,
+				BEB0D36A2926A978003CAED9 /* chaletsFranciaViewController.swift in Sources */,
+				BE413AD428CA2AEB0000B418 /* protocoloMenu.swift in Sources */,
+				BE31968228EC834C00C8A8B8 /* PopUpLideresViewController.swift in Sources */,
+				BE680DEB291D6ECF00BB8473 /* TableViewCellMiItinerario.swift in Sources */,
+				BE870F972989C174007F0E99 /* profileViewController.swift in Sources */,
+				BE413AC028CA292E0000B418 /* accesosViewController.swift in Sources */,
+				BE95F5E328CB7EA20093D0A7 /* appFAMEX.xcdatamodeld in Sources */,
+				BE3248112943B0E900D9EC0F /* HotelsCollectionViewCell.swift in Sources */,
+				BE3248072943AEA000D9EC0F /* hotelsViewController.swift in Sources */,
+				BE413AB628CA28FA0000B418 /* espectaculoViewController.swift in Sources */,
+				BE4F828A28B7C7F2004F4DD4 /* AppDelegate.swift in Sources */,
+				BEF1FE892937D41E000FF155 /* user.swift in Sources */,
+				BEB0D38B2926D264003CAED9 /* PopUpContactoViewController.swift in Sources */,
+				BE31968728EC836600C8A8B8 /* PopUpIDViewController.swift in Sources */,
+				BE2D6C35292E937B00F215FC /* expoEstaticaMexicoViewController.swift in Sources */,
+				BE4F828C28B7C7F2004F4DD4 /* SceneDelegate.swift in Sources */,
+				BEB0D3732926BC6C003CAED9 /* TableViewCellChalet.swift in Sources */,
+				7095C6EF28C86282008088C2 /* famexViewController.swift in Sources */,
+				BE505A6D291EBD1F00BE1959 /* secondDateViewController.swift in Sources */,
+				BE505A83291ED9E100BE1959 /* expoEstaticaFranciaCollectionViewCell.swift in Sources */,
+				BE413ACA28CA29690000B418 /* prefamexViewController.swift in Sources */,
+				BEB0D3952926D2AD003CAED9 /* PoppTerminosYCondicionesViewController.swift in Sources */,
+				BED5326428F47AA10061EE58 /* MenuViewController.swift in Sources */,
+				BE505A79291EC8DC00BE1959 /* expoEstaticaFranciaViewController.swift in Sources */,
+				BEC0F802299AD484002582D4 /* BienvenidaViewController.swift in Sources */,
+				BE2D6C46292EA9EA00F215FC /* firstDateViewController.swift in Sources */,
+				BE870FB32989CAB0007F0E99 /* franciaViewController.swift in Sources */,
+				BE413AB128CA28BE0000B418 /* restaurantesViewController.swift in Sources */,
+				7037A25B28BD9D5200DCB43C /* SignUpViewController.swift in Sources */,
+				BE413AAC28CA28A00000B418 /* itinerarioViewController.swift in Sources */,
+				BE1B01402941044C0004A1F6 /* ImagesProfileCollectionViewCell.swift in Sources */,
+				BED5326A28F486E90061EE58 /* TableViewCellMenu.swift in Sources */,
+				BE413AC528CA294D0000B418 /* sanitizacionViewController.swift in Sources */,
+				BEB6FF0428E7552600C047D3 /* PopUpPuestosViewController.swift in Sources */,
+				BE1E1F4C291C164C009D981C /* ConferenciasFranciaTableViewCell.swift in Sources */,
+				BE1E1F52291C361C009D981C /* detailConferenciaViewController.swift in Sources */,
+				BE413AA728CA28840000B418 /* eventosViewController.swift in Sources */,
+				BE5FBD7628EF2808005F812A /* MapaGeneralViewController.swift in Sources */,
+				BE38A02329311DDA0078514B /* popUpAddMiItinerarioViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE4F829B28B7C7F3004F4DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE4F82A428B7C7F3004F4DD4 /* appFAMEXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE4F82A628B7C7F3004F4DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE4F82AF28B7C7F3004F4DD4 /* appFAMEXUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE4F82A128B7C7F3004F4DD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE4F828528B7C7F2004F4DD4 /* appFAMEX */;
+			targetProxy = BE4F82A028B7C7F3004F4DD4 /* PBXContainerItemProxy */;
+		};
+		BE4F82AC28B7C7F3004F4DD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE4F828528B7C7F2004F4DD4 /* appFAMEX */;
+			targetProxy = BE4F82AB28B7C7F3004F4DD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEB9882829A022A500BDCF24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEB9882729A022A500BDCF24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE4F82B128B7C7F3004F4DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE4F82B228B7C7F3004F4DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE4F82B428B7C7F3004F4DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EEAAB3725BF49DA7EF1F61F /* Pods-appFAMEX.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HG8JS6XY5W;
+				INFOPLIST_FILE = appFAMEX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.miguelulloa.appFAMEX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE4F82B528B7C7F3004F4DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE738BBC6D91DECCE2322BA6 /* Pods-appFAMEX.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HG8JS6XY5W;
+				INFOPLIST_FILE = appFAMEX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.miguelulloa.appFAMEX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE4F82B728B7C7F3004F4DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 243F0562C8305407CEC5A75C /* Pods-appFAMEXTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DW7J2R7ZC;
+				INFOPLIST_FILE = appFAMEXTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appFAMEX.appFAMEXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appFAMEX.app/appFAMEX";
+			};
+			name = Debug;
+		};
+		BE4F82B828B7C7F3004F4DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89E0C9163E03F88C2E4E0B20 /* Pods-appFAMEXTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DW7J2R7ZC;
+				INFOPLIST_FILE = appFAMEXTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appFAMEX.appFAMEXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appFAMEX.app/appFAMEX";
+			};
+			name = Release;
+		};
+		BE4F82BA28B7C7F3004F4DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ECF824DCDBDC904CAD99280 /* Pods-appFAMEX-appFAMEXUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DW7J2R7ZC;
+				INFOPLIST_FILE = appFAMEXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appFAMEX.appFAMEXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = appFAMEX;
+			};
+			name = Debug;
+		};
+		BE4F82BB28B7C7F3004F4DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE41D424DB3CF800E497F5E2 /* Pods-appFAMEX-appFAMEXUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DW7J2R7ZC;
+				INFOPLIST_FILE = appFAMEXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appFAMEX.appFAMEXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = appFAMEX;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE4F828128B7C7F2004F4DD4 /* Build configuration list for PBXProject "appFAMEX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE4F82B128B7C7F3004F4DD4 /* Debug */,
+				BE4F82B228B7C7F3004F4DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE4F82B328B7C7F3004F4DD4 /* Build configuration list for PBXNativeTarget "appFAMEX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE4F82B428B7C7F3004F4DD4 /* Debug */,
+				BE4F82B528B7C7F3004F4DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE4F82B628B7C7F3004F4DD4 /* Build configuration list for PBXNativeTarget "appFAMEXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE4F82B728B7C7F3004F4DD4 /* Debug */,
+				BE4F82B828B7C7F3004F4DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE4F82B928B7C7F3004F4DD4 /* Build configuration list for PBXNativeTarget "appFAMEXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE4F82BA28B7C7F3004F4DD4 /* Debug */,
+				BE4F82BB28B7C7F3004F4DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BEF1FE7B2937C720000FF155 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BEF1FE7C2937C720000FF155 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BEF1FE7B2937C720000FF155 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		BE95F5E128CB7EA20093D0A7 /* appFAMEX.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BE95F5E228CB7EA20093D0A7 /* appFAMEX.xcdatamodel */,
+			);
+			currentVersion = BE95F5E228CB7EA20093D0A7 /* appFAMEX.xcdatamodel */;
+			path = appFAMEX.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BE4F827E28B7C7F2004F4DD4 /* Project object */;
+}
