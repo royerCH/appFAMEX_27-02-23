@@ -4739,6 +4739,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rfB-9n-cMC" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="lm2-qB-Fly"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="8hy-1U-tI1">
                         <rect key="frame" x="0.0" y="44" width="428" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
