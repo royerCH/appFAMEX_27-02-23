@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -12,42 +11,35 @@
         <scene sceneID="sGa-C6-FJf">
             <objects>
                 <viewController id="7IP-i7-rF9" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="SgF-LR-dUg">
+                    <view key="view" contentMode="scaleToFill" id="b4Q-4C-UtY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iIz-B1-fv5">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FAMEX 2023 " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uEP-JJ-7fF">
-                                        <rect key="frame" x="122" y="198" width="175" height="35"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="29"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imgBG4" translatesAutoresizingMaskIntoConstraints="NO" id="9k1-fn-Hfv">
+                                <rect key="frame" x="-6" y="-7" width="426" height="903"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgLogoFamexBlanco2023" translatesAutoresizingMaskIntoConstraints="NO" id="8Rq-7B-Jpf">
+                                <rect key="frame" x="0.0" y="302" width="414" height="292"/>
+                            </imageView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="4c5-2b-CwW"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <viewLayoutGuide key="safeArea" id="TQC-Pa-xXD"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="iIz-B1-fv5" firstAttribute="top" secondItem="4c5-2b-CwW" secondAttribute="top" id="378-3n-c6f"/>
-                            <constraint firstItem="iIz-B1-fv5" firstAttribute="centerX" secondItem="SgF-LR-dUg" secondAttribute="centerX" id="mV9-09-tUr"/>
-                            <constraint firstItem="iIz-B1-fv5" firstAttribute="bottom" secondItem="4c5-2b-CwW" secondAttribute="bottom" id="qhu-8E-rJa"/>
-                            <constraint firstItem="iIz-B1-fv5" firstAttribute="leading" secondItem="4c5-2b-CwW" secondAttribute="leading" id="sW5-3u-NXx"/>
+                            <constraint firstItem="8Rq-7B-Jpf" firstAttribute="trailing" secondItem="TQC-Pa-xXD" secondAttribute="trailing" id="KAp-JI-qsw"/>
+                            <constraint firstItem="8Rq-7B-Jpf" firstAttribute="top" secondItem="TQC-Pa-xXD" secondAttribute="top" constant="258" id="dwf-rI-0RS"/>
+                            <constraint firstItem="8Rq-7B-Jpf" firstAttribute="leading" secondItem="TQC-Pa-xXD" secondAttribute="leading" id="tcs-kL-EiF"/>
+                            <constraint firstItem="TQC-Pa-xXD" firstAttribute="bottom" secondItem="8Rq-7B-Jpf" secondAttribute="bottom" constant="268" id="ur2-PL-HcO"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QKz-6C-dAl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-535" y="-10"/>
+            <point key="canvasLocation" x="-255.07246376811597" y="-66.294642857142861"/>
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <image name="imgBG4" width="1081" height="2343"/>
+        <image name="imgLogoFamexBlanco2023" width="494" height="292"/>
     </resources>
 </document>

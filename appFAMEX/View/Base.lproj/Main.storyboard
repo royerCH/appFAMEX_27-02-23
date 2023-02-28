@@ -507,90 +507,14 @@
         <scene sceneID="KmS-9q-HP6">
             <objects>
                 <viewController id="cd9-lq-6Bn" customClass="BienvenidaViewController" customModule="appFAMEX" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="GHH-w4-t3S">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="imgBG1" translatesAutoresizingMaskIntoConstraints="NO" id="mVb-ba-B7A">
-                                <rect key="frame" x="-10" y="0.0" width="455" height="948"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0A-wc-77V">
-                                <rect key="frame" x="172" y="757" width="84" height="125"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="btnIrInicioAction:" destination="cd9-lq-6Bn" eventType="touchUpInside" id="CHz-aY-aus"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="texto dos " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lUJ-kW-OuZ">
-                                <rect key="frame" x="60" y="490" width="280" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="HU9-Zq-Dxz"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bienvenido a la exposición" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yfc-5n-FNy">
-                                <rect key="frame" x="68" y="551" width="272" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="auu-TO-T46"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="texto uno " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JBb-89-tQ2">
-                                <rect key="frame" x="112" y="377" width="228" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="Vfv-Eq-LTB"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="wTu-Bn-ztw"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstAttribute="bottomMargin" secondItem="mVb-ba-B7A" secondAttribute="bottom" constant="-56" id="0pP-ni-qIs"/>
-                            <constraint firstItem="JBb-89-tQ2" firstAttribute="top" secondItem="wTu-Bn-ztw" secondAttribute="top" constant="289" id="2Zd-cf-FhD"/>
-                            <constraint firstItem="Y0A-wc-77V" firstAttribute="top" secondItem="wTu-Bn-ztw" secondAttribute="top" constant="669" id="5Cf-Ka-dvr"/>
-                            <constraint firstItem="yfc-5n-FNy" firstAttribute="top" secondItem="lUJ-kW-OuZ" secondAttribute="bottom" constant="40" id="79g-CH-sgB"/>
-                            <constraint firstItem="wTu-Bn-ztw" firstAttribute="trailing" secondItem="JBb-89-tQ2" secondAttribute="trailing" constant="88" id="AkS-Ne-WeB"/>
-                            <constraint firstItem="wTu-Bn-ztw" firstAttribute="trailing" secondItem="JBb-89-tQ2" secondAttribute="trailing" constant="88" id="CKy-Jn-wvU"/>
-                            <constraint firstItem="wTu-Bn-ztw" firstAttribute="trailing" secondItem="lUJ-kW-OuZ" secondAttribute="trailing" constant="88" id="F44-yo-tpE"/>
-                            <constraint firstAttribute="trailing" secondItem="mVb-ba-B7A" secondAttribute="trailing" constant="-18" id="IL7-DD-ssc"/>
-                            <constraint firstItem="JBb-89-tQ2" firstAttribute="leading" secondItem="wTu-Bn-ztw" secondAttribute="leading" constant="112" id="IVW-ib-lOt"/>
-                            <constraint firstItem="lUJ-kW-OuZ" firstAttribute="top" secondItem="JBb-89-tQ2" secondAttribute="bottom" constant="92" id="LBm-QF-gJJ"/>
-                            <constraint firstItem="lUJ-kW-OuZ" firstAttribute="leading" secondItem="wTu-Bn-ztw" secondAttribute="leading" constant="60" id="XM9-QC-GMa"/>
-                            <constraint firstItem="wTu-Bn-ztw" firstAttribute="trailing" secondItem="Y0A-wc-77V" secondAttribute="trailing" constant="172" id="XWB-uR-Ude"/>
-                            <constraint firstItem="mVb-ba-B7A" firstAttribute="top" secondItem="GHH-w4-t3S" secondAttribute="topMargin" constant="-88" id="YcH-7F-ojC"/>
-                            <constraint firstItem="wTu-Bn-ztw" firstAttribute="bottom" secondItem="Y0A-wc-77V" secondAttribute="bottom" constant="10" id="cYB-lE-Kgg"/>
-                            <constraint firstItem="wTu-Bn-ztw" firstAttribute="trailing" secondItem="JBb-89-tQ2" secondAttribute="trailing" constant="88" id="cmR-Cg-ybG"/>
-                            <constraint firstItem="Y0A-wc-77V" firstAttribute="top" secondItem="yfc-5n-FNy" secondAttribute="bottom" constant="185" id="dCr-m4-kiq"/>
-                            <constraint firstItem="mVb-ba-B7A" firstAttribute="leading" secondItem="GHH-w4-t3S" secondAttribute="leading" constant="-10" id="e1z-4q-Pcb"/>
-                            <constraint firstItem="JBb-89-tQ2" firstAttribute="leading" secondItem="wTu-Bn-ztw" secondAttribute="leading" constant="112" id="fFa-A3-ZQb"/>
-                            <constraint firstItem="Y0A-wc-77V" firstAttribute="leading" secondItem="wTu-Bn-ztw" secondAttribute="leading" constant="172" id="fps-BA-j95"/>
-                            <constraint firstItem="yfc-5n-FNy" firstAttribute="leading" secondItem="wTu-Bn-ztw" secondAttribute="leading" constant="68" id="rp0-AQ-YKa"/>
-                            <constraint firstItem="wTu-Bn-ztw" firstAttribute="trailing" secondItem="yfc-5n-FNy" secondAttribute="trailing" constant="88" id="tG6-ML-DVZ"/>
-                            <constraint firstItem="yfc-5n-FNy" firstAttribute="top" secondItem="lUJ-kW-OuZ" secondAttribute="bottom" constant="40" id="uE1-HT-ltF"/>
-                            <constraint firstItem="wTu-Bn-ztw" firstAttribute="trailing" secondItem="JBb-89-tQ2" secondAttribute="trailing" constant="88" id="xsi-iv-edo"/>
-                        </constraints>
-                    </view>
                     <navigationItem key="navigationItem" id="Zcn-yh-6WR"/>
                     <connections>
-                        <outlet property="bGround" destination="mVb-ba-B7A" id="cg4-9B-inU"/>
-                        <outlet property="btnIrInicio" destination="Y0A-wc-77V" id="nAF-az-Wb7"/>
-                        <outlet property="saludo" destination="JBb-89-tQ2" id="8cZ-jV-FfS"/>
-                        <outlet property="textoDos" destination="lUJ-kW-OuZ" id="4LT-WG-D2P"/>
-                        <outlet property="textoUno" destination="JBb-89-tQ2" id="nDb-RR-mWd"/>
-                        <outlet property="viewBienvenida" destination="GHH-w4-t3S" id="gwq-o9-YSk"/>
                         <segue destination="Nuo-SU-JoI" kind="show" identifier="inicio" id="otb-pU-3ja"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ppf-bH-Y5b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="936.44859813084111" y="-882.50539956803459"/>
+            <point key="canvasLocation" x="778" y="-981"/>
         </scene>
         <!--Inicio View Controller-->
         <scene sceneID="2Yw-Fj-ouT">
@@ -4751,7 +4675,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q5E-8e-GQr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-131" y="83"/>
+            <point key="canvasLocation" x="-251" y="82"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="AeG-F3-qF6">
@@ -5851,7 +5775,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Iek-BW-Bpn"/>
+        <segue reference="otb-pU-3ja"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="AirplanesIconImg" width="156" height="156"/>
@@ -5955,9 +5879,6 @@
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="tertiarySystemGroupedBackgroundColor">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
