@@ -511,27 +511,41 @@
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SJT-VS-Gwr">
-                                <rect key="frame" x="0.0" y="88" width="428" height="804"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SJT-VS-Gwr">
+                                <rect key="frame" x="0.0" y="137" width="428" height="789"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="muestra idioma " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mhR-uo-aMZ">
+                                <rect key="frame" x="0.0" y="108" width="428" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="v4v-WU-Zw4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lr3-DI-Icq"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="lr3-DI-Icq" firstAttribute="bottom" secondItem="SJT-VS-Gwr" secondAttribute="bottom" id="4Zl-di-AlS"/>
-                            <constraint firstItem="SJT-VS-Gwr" firstAttribute="top" secondItem="lr3-DI-Icq" secondAttribute="top" id="gCJ-ny-s10"/>
-                            <constraint firstItem="lr3-DI-Icq" firstAttribute="trailing" secondItem="SJT-VS-Gwr" secondAttribute="trailing" id="koo-uH-UaE"/>
-                            <constraint firstItem="SJT-VS-Gwr" firstAttribute="leading" secondItem="lr3-DI-Icq" secondAttribute="leading" id="uBS-qc-Wf6"/>
+                            <constraint firstItem="SJT-VS-Gwr" firstAttribute="top" secondItem="mhR-uo-aMZ" secondAttribute="bottom" constant="1" id="Al5-si-QPx"/>
+                            <constraint firstItem="mhR-uo-aMZ" firstAttribute="leading" secondItem="lr3-DI-Icq" secondAttribute="leading" id="Cuk-2C-QBN"/>
+                            <constraint firstItem="SJT-VS-Gwr" firstAttribute="trailing" secondItem="mhR-uo-aMZ" secondAttribute="trailing" id="LjA-4e-r4O"/>
+                            <constraint firstItem="SJT-VS-Gwr" firstAttribute="leading" secondItem="mhR-uo-aMZ" secondAttribute="leading" id="asm-Mg-xA8"/>
+                            <constraint firstItem="mhR-uo-aMZ" firstAttribute="top" secondItem="lr3-DI-Icq" secondAttribute="top" constant="20" id="hbM-8I-eMM"/>
+                            <constraint firstItem="mhR-uo-aMZ" firstAttribute="trailing" secondItem="lr3-DI-Icq" secondAttribute="trailing" id="m4h-yo-tN4"/>
+                            <constraint firstAttribute="bottom" secondItem="SJT-VS-Gwr" secondAttribute="bottom" id="oBa-1R-CF8"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Zcn-yh-6WR"/>
                     <connections>
                         <outlet property="BgWelcome" destination="SJT-VS-Gwr" id="toJ-5N-wmH"/>
+                        <outlet property="verIdioma" destination="mhR-uo-aMZ" id="XWj-2u-Ape"/>
                         <segue destination="Nuo-SU-JoI" kind="show" identifier="inicio" id="otb-pU-3ja"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ppf-bH-Y5b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1054" y="-997"/>
+            <point key="canvasLocation" x="1171.9626168224299" y="-988.76889848812107"/>
         </scene>
         <!--Inicio View Controller-->
         <scene sceneID="2Yw-Fj-ouT">

@@ -12,13 +12,23 @@ import UIKit
 class BienvenidaViewController: UIViewController {
 
     
+    @IBOutlet weak var verIdioma: UILabel!
     @IBOutlet weak var BgWelcome: UIImageView!
+    var tipoIdioma: Int?
+ 
     
     override func viewDidLoad() {
-        
         super.viewDidLoad()
-    
-
+        
+        if tipoIdioma == 0 {
+            BgWelcome.image = UIImage(named: "0Inicio1")
+          
+            verIdioma.text = ("Idioma  \(String(describing: tipoIdioma))")
+        }else{
+            BgWelcome.image = UIImage(named: "0Inicio2")
+            verIdioma.text = ("Idioma  \(String(describing: tipoIdioma))")
+        }
+  
     }
     
     

@@ -37,12 +37,21 @@ class loginViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
+    var tipoIdioma: Int?
+ 
+    
 
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        //Instancias de objetos de tipo LoginViewController
+        
+//         let tipoLenguaje = loginViewController()
+        
         customButtons()
         /*----------------------------------------------------*/
 
@@ -150,17 +159,18 @@ class loginViewController: UIViewController, UITextFieldDelegate {
     
      @IBAction func btnGuessUsrAction(_ sender: Any) {
          btnGuessUsr.bounce()
+        tipoIdioma = 1
          performSegue(withIdentifier: "bienvenida", sender: self)
-         
-        var nombreArray = ["Rogelio", "Valerio", "Karen", "Paola"]
-        
-        for valor in nombreArray {
-            print(valor)
-        }
-           
-        
-      
+        print("btnGuessUSR funcionando")
      }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if let screenView = segue.destination as?
+            BienvenidaViewController{
+            screenView.tipoIdioma = self.tipoIdioma
+        }
+    }
 
     
 }
