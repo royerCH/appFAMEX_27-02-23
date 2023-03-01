@@ -151,7 +151,14 @@ class loginViewController: UIViewController, UITextFieldDelegate {
      @IBAction func btnGuessUsrAction(_ sender: Any) {
          btnGuessUsr.bounce()
          performSegue(withIdentifier: "bienvenida", sender: self)
-            print("botón de invitado")
+         
+        var nombreArray = ["Rogelio", "Valerio", "Karen", "Paola"]
+        
+        for valor in nombreArray {
+            print(valor)
+        }
+           
+        
       
      }
 

@@ -12,6 +12,7 @@ import UIKit
 class BienvenidaViewController: UIViewController {
 
     
+    @IBOutlet weak var BgWelcome: UIImageView!
     
     override func viewDidLoad() {
         
