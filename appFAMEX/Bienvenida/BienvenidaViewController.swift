@@ -24,6 +24,7 @@ class BienvenidaViewController: UIViewController {
             BgWelcome.image = UIImage(named: "0Inicio1")
           
             verIdioma.text = ("Idioma  \(String(describing: tipoIdioma))")
+            
         }else{
             BgWelcome.image = UIImage(named: "0Inicio2")
             verIdioma.text = ("Idioma  \(String(describing: tipoIdioma))")

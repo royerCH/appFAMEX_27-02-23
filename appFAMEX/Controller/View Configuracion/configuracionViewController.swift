@@ -78,7 +78,7 @@ class configuracionViewController: UIViewController, protocoloMenu {
     func customLabelsAndButtons () {
         //LABELS
         //Label Configuracion
-        lblConfiguracion.text = "CONFIGURACIÓN"  //Hola, desconozco el error que sale ayuda
+        lblConfiguracion.text = "  CONFIGURACIONES"  //Hola, desconozco el error que sale ayuda
         lblConfiguracion.font = UIFont(name: "Arial", size: 25)
         lblConfiguracion.textColor = .white
         lblConfiguracion.textAlignment = .center
@@ -113,13 +113,13 @@ class configuracionViewController: UIViewController, protocoloMenu {
        // Boton Sobre la Aplicacion
        btnSobreLaAplicacion.backgroundColor = .clear
        btnSobreLaAplicacion.setTitleColor(.white, for: .normal)
-        btnSobreLaAplicacion.setTitle(" Sobre la\nAplicacion", for: .normal)
+        btnSobreLaAplicacion.setTitle(" Sobre la\nAplicación", for: .normal)
         btnSobreLaAplicacion.titleLabel?.numberOfLines = 0
         
        // Boton Terminos y Condiciones
        btnTerminosYCondiciones.backgroundColor = .clear
        btnTerminosYCondiciones.setTitleColor(.white, for: .normal)
-        btnTerminosYCondiciones.setTitle(" Terminos y \nCondiciones", for: .normal)
+        btnTerminosYCondiciones.setTitle(" Términos y \nCondiciones", for: .normal)
         btnTerminosYCondiciones.titleLabel?.numberOfLines = 0
         
     }
@@ -144,7 +144,11 @@ class configuracionViewController: UIViewController, protocoloMenu {
     
     // Accion para el boton Idioma *a`n sin/funcionamiento
    @IBAction func btnActionIdioma(_ sender: Any)
-    { }
+    {
+    
+       
+    
+   }
     // Accion para el boton Notificaciones *s/f
    @IBAction func btnActionNotificaciones(_ sender: Any)
     { }

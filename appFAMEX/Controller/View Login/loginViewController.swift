@@ -60,6 +60,8 @@ class loginViewController: UIViewController, UITextFieldDelegate {
         self.textFieldUsr.delegate = self
         self.textFieldPass.delegate = self
         
+        
+        
     }
 
     // Metodos
@@ -134,7 +136,7 @@ class loginViewController: UIViewController, UITextFieldDelegate {
             // Peticion correcta
             self.activityIndicator.stopAnimating()
             
-           // self.passCredentials(credential: "Hola")
+            //self.passCredentials(credential: "Hola")
             
             self.performSegue(withIdentifier: "logInSegue", sender: self)
             
@@ -142,6 +144,8 @@ class loginViewController: UIViewController, UITextFieldDelegate {
             // Ocurrio un Error
             self.activityIndicator.stopAnimating()
         }
+        
+        print("Hello Login")
      }
     
             // Registrarse
