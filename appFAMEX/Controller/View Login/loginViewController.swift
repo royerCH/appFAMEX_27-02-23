@@ -163,7 +163,7 @@ class loginViewController: UIViewController, UITextFieldDelegate {
     
      @IBAction func btnGuessUsrAction(_ sender: Any) {
          btnGuessUsr.bounce()
-        tipoIdioma = 1
+        tipoIdioma = 0
          performSegue(withIdentifier: "bienvenida", sender: self)
         print("btnGuessUSR funcionando")
      }

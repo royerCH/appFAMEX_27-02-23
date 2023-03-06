@@ -62,6 +62,7 @@
 		BE870FB32989CAB0007F0E99 /* franciaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE413AA128CA28660000B418 /* franciaViewController.swift */; };
 		BE95F5DA28CB7E210093D0A7 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE95F5D928CB7E210093D0A7 /* Launch Screen.storyboard */; };
 		BE95F5E328CB7EA20093D0A7 /* appFAMEX.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE95F5E128CB7EA20093D0A7 /* appFAMEX.xcdatamodeld */; };
+		BEAD8CD629B290330039C740 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEAD8CD529B290330039C740 /* GoogleService-Info.plist */; };
 		BEB0D36A2926A978003CAED9 /* chaletsFranciaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0D3692926A978003CAED9 /* chaletsFranciaViewController.swift */; };
 		BEB0D3732926BC6C003CAED9 /* TableViewCellChalet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0D3712926BC6C003CAED9 /* TableViewCellChalet.swift */; };
 		BEB0D3742926BC6C003CAED9 /* TableViewCellChalet.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEB0D3722926BC6C003CAED9 /* TableViewCellChalet.xib */; };
@@ -168,6 +169,7 @@
 		BE782E75291588FE00B7FD70 /* puntodesanitizacion.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = puntodesanitizacion.pdf; sourceTree = "<group>"; };
 		BE95F5D928CB7E210093D0A7 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		BE95F5E228CB7EA20093D0A7 /* appFAMEX.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = appFAMEX.xcdatamodel; sourceTree = "<group>"; };
+		BEAD8CD529B290330039C740 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BEB0D3692926A978003CAED9 /* chaletsFranciaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chaletsFranciaViewController.swift; sourceTree = "<group>"; };
 		BEB0D3712926BC6C003CAED9 /* TableViewCellChalet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellChalet.swift; sourceTree = "<group>"; };
 		BEB0D3722926BC6C003CAED9 /* TableViewCellChalet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCellChalet.xib; sourceTree = "<group>"; };
@@ -473,6 +475,7 @@
 				BE4F828928B7C7F2004F4DD4 /* AppDelegate.swift */,
 				BE4F829528B7C7F3004F4DD4 /* Assets.xcassets */,
 				BE4F829A28B7C7F3004F4DD4 /* Info.plist */,
+				BEAD8CD529B290330039C740 /* GoogleService-Info.plist */,
 			);
 			path = appFAMEX;
 			sourceTree = "<group>";
@@ -799,6 +802,7 @@
 				BE1E1F4D291C164C009D981C /* ConferenciasFranciaTableViewCell.xib in Resources */,
 				BE680DEC291D6ECF00BB8473 /* TableViewCellMiItinerario.xib in Resources */,
 				BE782E76291588FE00B7FD70 /* puntodesanitizacion.pdf in Resources */,
+				BEAD8CD629B290330039C740 /* GoogleService-Info.plist in Resources */,
 				BED5325B28F0848F0061EE58 /* CustomCollectionViewCellRestaurantes.xib in Resources */,
 				BE782E712915848800B7FD70 /* accesosprioritarios.pdf in Resources */,
 				BEFFA451299552D200A7A4F8 /* mapaGeneral.pdf in Resources */,

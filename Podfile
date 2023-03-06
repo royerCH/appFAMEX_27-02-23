@@ -7,6 +7,8 @@ target 'appFAMEX' do
 
   # Pods for appFAMEX
   # pod 'iCarousel'
+  # add the Firebase pod for Google Analytics
+  pod 'Firebase/Analytics'
 
   target 'appFAMEXTests' do
     inherit! :search_paths
