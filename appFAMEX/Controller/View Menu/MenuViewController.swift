@@ -74,12 +74,12 @@ class MenuViewController: UIViewController {
         structMenu(camptitle: "PRE-FAMEX",
                    campsegue: "PreparateSegue",
                    campimage: "imgIconPreparate"),
-        structMenu(camptitle: "Configuraciòn",
+        structMenu(camptitle: "Configuración",
                    campsegue: "ConfigSegue",
                    campimage: "imgIconConfig"),
-        structMenu(camptitle: "Cerar Sesión",
+        structMenu(camptitle: "Cerrar Sesión",
                    campsegue: "logInSegue",
-                   campimage: "imgIconConfig")//pendiente con esta imágen 
+                   campimage: "imgCerrarSesion")//pendiente con esta imágen
         
     
     ]
@@ -171,7 +171,7 @@ extension MenuViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        print(indexPath)
+        //print(indexPath)
         
         
         // Segues de cada opcion del Menu

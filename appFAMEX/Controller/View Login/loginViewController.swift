@@ -38,6 +38,7 @@ class loginViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
     var tipoIdioma: Int?
+    var etiqueta: String?
  
     
 
@@ -166,6 +167,7 @@ class loginViewController: UIViewController, UITextFieldDelegate {
      @IBAction func btnGuessUsrAction(_ sender: Any) {
          btnGuessUsr.bounce()
         tipoIdioma = 0
+        etiqueta = "Español"
          performSegue(withIdentifier: "bienvenida", sender: self)
         print("btnGuessUSR funcionando")
      }
@@ -175,8 +177,12 @@ class loginViewController: UIViewController, UITextFieldDelegate {
         if let screenView = segue.destination as?
             BienvenidaViewController{
             screenView.tipoIdioma = self.tipoIdioma
+            
+            screenView.etiqueta = self.etiqueta
         }
     }
+    
+    
 
     
 }

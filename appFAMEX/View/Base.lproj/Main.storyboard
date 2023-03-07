@@ -253,7 +253,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZAG-iC-ECB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="8Kh-8L-ahC" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="650.76923076923072" y="81.753554502369667"/>
+            <point key="canvasLocation" x="383" y="86"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="miH-Y2-PXL">
@@ -556,13 +556,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P8f-2k-8Da">
-                                <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgBG1" translatesAutoresizingMaskIntoConstraints="NO" id="4bB-Tb-UjA" userLabel="ImgInicioFondo">
-                                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vDD-Sz-KsF">
-                                        <rect key="frame" x="0.0" y="692" width="428" height="100"/>
+                                        <rect key="frame" x="0.0" y="746" width="428" height="100"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XAn-Hl-zLF">
                                                 <rect key="frame" x="211.66666666666666" y="0.0" width="5" height="100"/>
@@ -625,26 +625,26 @@
                                         </constraints>
                                     </view>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="ZVJ-3I-vpg">
-                                        <rect key="frame" x="20" y="657.66666666666663" width="388" height="27.333333333333371"/>
+                                        <rect key="frame" x="20" y="711.66666666666663" width="388" height="27.333333333333371"/>
                                         <connections>
                                             <action selector="pageControlActionCarousel:" destination="Nuo-SU-JoI" eventType="valueChanged" id="VRF-27-mWC"/>
                                         </connections>
                                     </pageControl>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="het-Fc-Kx3">
-                                        <rect key="frame" x="10" y="817" width="123" height="23"/>
+                                        <rect key="frame" x="10" y="871" width="123" height="23"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P9u-4K-9xV">
-                                        <rect key="frame" x="147" y="804" width="261" height="49"/>
+                                        <rect key="frame" x="147" y="858" width="261" height="49"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hvp-tZ-pZw">
-                                        <rect key="frame" x="0.0" y="0.0" width="428" height="657.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="428" height="711.66666666666663"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gcO-vu-FVA">
-                                                <rect key="frame" x="69" y="187.66666666666663" width="290" height="450"/>
+                                                <rect key="frame" x="69" y="241.66666666666663" width="290" height="450"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="450" id="86i-7y-GAn"/>
@@ -3082,6 +3082,9 @@
                                                                     <constraint firstAttribute="height" constant="50" id="Whd-jf-suu"/>
                                                                 </constraints>
                                                                 <state key="normal" title="Button" backgroundImage="imgBtnBarraBlanca"/>
+                                                                <connections>
+                                                                    <action selector="btnConferencias:" destination="lH6-ea-CZ6" eventType="touchUpInside" id="dfH-6S-mS7"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SQE-YU-u04">
                                                                 <rect key="frame" x="116" y="110" width="312" height="50"/>
@@ -3089,6 +3092,9 @@
                                                                     <constraint firstAttribute="height" constant="50" id="2d3-tW-OSk"/>
                                                                 </constraints>
                                                                 <state key="normal" title="Button" backgroundImage="imgBtnBarraBlanca"/>
+                                                                <connections>
+                                                                    <action selector="btnPabellones:" destination="lH6-ea-CZ6" eventType="touchUpInside" id="4My-KI-36b"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fE2-08-0sc">
                                                                 <rect key="frame" x="116" y="190" width="312" height="50"/>
@@ -3187,7 +3193,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="23e-dN-Bt2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4437" y="-1435"/>
+            <point key="canvasLocation" x="3395" y="-1656"/>
         </scene>
         <!--Mapa General View Controller-->
         <scene sceneID="GkT-F1-6Yn">
@@ -4081,12 +4087,18 @@
                                                 <state key="normal" title="Idioma">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="btnActionIdioma:" destination="tug-R9-Bw2" eventType="touchUpInside" id="ICC-Nr-UwA"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rIX-bN-zqq">
                                                 <rect key="frame" x="0.0" y="89.333333333333343" width="278" height="86"/>
                                                 <state key="normal" title="Notificaciones">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="btnActionNotificaciones:" destination="tug-R9-Bw2" eventType="touchUpInside" id="f6u-Fy-v5q"/>
+                                                </connections>
                                             </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ImgIconIdioma" translatesAutoresizingMaskIntoConstraints="NO" id="RUe-83-xS7">
                                                 <rect key="frame" x="12" y="20.000000000000004" width="40" height="46.333333333333343"/>
@@ -4149,6 +4161,9 @@
                                                 <state key="normal" title="PreguntasFrecuentes">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="btnActionPreguntasFrecuentes:" destination="tug-R9-Bw2" eventType="touchUpInside" id="ee3-U3-nAT"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d5X-sA-101">
                                                 <rect key="frame" x="0.0" y="78" width="278" height="75"/>
@@ -4158,6 +4173,9 @@
                                                 <state key="normal" title="Reporta un Problema">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="btnActionReportarUnProblema:" destination="tug-R9-Bw2" eventType="touchUpInside" id="dkJ-JO-LPE"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NJN-ax-ej0">
                                                 <rect key="frame" x="0.0" y="156" width="278" height="75"/>
@@ -4167,6 +4185,9 @@
                                                 <state key="normal" title="Contacto">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="btnActionContacto:" destination="tug-R9-Bw2" eventType="touchUpInside" id="cnS-AM-G8Z"/>
+                                                </connections>
                                             </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ImgIconPregntasFrec" translatesAutoresizingMaskIntoConstraints="NO" id="JnY-Zt-XRV">
                                                 <rect key="frame" x="12" y="20" width="40" height="35"/>
@@ -4240,12 +4261,18 @@
                                                 <state key="normal" title="Sobre la Aplicacion">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="btnActionSobreLaAplicacion:" destination="tug-R9-Bw2" eventType="touchUpInside" id="aGK-wQ-PY5"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rd5-MX-lzO">
                                                 <rect key="frame" x="0.0" y="76.666666666666629" width="278" height="73.333333333333314"/>
                                                 <state key="normal" title="Terminos y Condiciones">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="btnActionTerminosYCondiciones:" destination="tug-R9-Bw2" eventType="touchUpInside" id="5xk-fg-k7F"/>
+                                                </connections>
                                             </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ImgIconSobreLaApp" translatesAutoresizingMaskIntoConstraints="NO" id="ZpH-fN-tOU">
                                                 <rect key="frame" x="12" y="19.999999999999996" width="40" height="33.666666666666657"/>
@@ -4328,7 +4355,7 @@
                     <navigationItem key="navigationItem" id="bOI-DI-WOy"/>
                     <connections>
                         <outlet property="btnContacto" destination="NJN-ax-ej0" id="w2M-hD-Le1"/>
-                        <outlet property="btnIdioma" destination="Q1g-6x-nDl" id="v9L-sx-LJd"/>
+                        <outlet property="btnIdioma" destination="Q1g-6x-nDl" id="Z5q-Bx-kym"/>
                         <outlet property="btnNotificaciones" destination="rIX-bN-zqq" id="I8A-kv-8Gi"/>
                         <outlet property="btnPreguntasFrecuentes" destination="tsA-r8-zNk" id="t6N-M2-Eol"/>
                         <outlet property="btnReportarUnProblema" destination="d5X-sA-101" id="Vrb-9P-f1v"/>
@@ -4343,7 +4370,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EBb-qH-YJV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4436.9230769230771" y="4471.5639810426537"/>
+            <point key="canvasLocation" x="3412" y="4374"/>
         </scene>
         <!--Profile View Controller-->
         <scene sceneID="JYa-QD-V7B">
@@ -4464,7 +4491,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EXD-SC-B55" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1746.1538461538462" y="-2400.7109004739336"/>
+            <point key="canvasLocation" x="2376" y="-1650"/>
         </scene>
         <!--Menu View Controller Scene-->
         <scene sceneID="6ch-Z8-7U4">
@@ -4598,7 +4625,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SKn-8H-s8r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1747" y="-1658"/>
+            <point key="canvasLocation" x="1707" y="-1677"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="7aG-x1-EKz">
@@ -5804,11 +5831,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VT4-ih-hqc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1623" y="-1019"/>
+            <point key="canvasLocation" x="-1220" y="-1372"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="kKJ-b0-J9t"/>
+        <segue reference="Iek-BW-Bpn"/>
         <segue reference="Vdw-Dx-Yl7"/>
     </inferredMetricsTieBreakers>
     <resources>

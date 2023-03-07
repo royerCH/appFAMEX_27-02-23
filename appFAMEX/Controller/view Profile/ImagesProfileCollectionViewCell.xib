@@ -46,7 +46,7 @@
                 <outlet property="imgUsr" destination="Xma-ky-yZ6" id="97L-cq-4NQ"/>
                 <outlet property="viewImageUser" destination="NYr-NM-7XX" id="L39-o1-ZKq"/>
             </connections>
-            <point key="canvasLocation" x="223.91304347826087" y="180.13392857142856"/>
+            <point key="canvasLocation" x="-109" y="109"/>
         </collectionViewCell>
     </objects>
     <resources>

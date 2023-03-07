@@ -112,6 +112,15 @@ class eventosViewController: UIViewController, protocoloMenu {
       
     }
     
+    
+    @IBAction func btnConferencias(_ sender: Any) {
+        
+        print("Conferencias")
+    }
+    
+    @IBAction func btnPabellones(_ sender: Any) {
+        print("Pabellones")
+    }
     @IBAction func btnActionExpoEstaticaMexico(_ sender: Any) {
         performSegue(withIdentifier: "expoEstaticaMexSegue", sender: self)
     }

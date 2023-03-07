@@ -25,7 +25,7 @@ override func viewDidLoad () {
         navigationController?.navigationBar.barTintColor = #colorLiteral(red: 0.07122091204, green: 0.05044277757, blue: 0.1986504793, alpha: 1)
         navigationController?.navigationBar.barStyle = .black
         
-        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Atràs", style: .plain, target: self, action: #selector(btnClosePopUp))
+        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Atrás", style: .plain, target: self, action: #selector(btnClosePopUp))
            }
     
     @objc func btnClosePopUp () {
