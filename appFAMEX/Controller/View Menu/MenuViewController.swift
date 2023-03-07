@@ -76,7 +76,11 @@ class MenuViewController: UIViewController {
                    campimage: "imgIconPreparate"),
         structMenu(camptitle: "Configuraciòn",
                    campsegue: "ConfigSegue",
-                   campimage: "imgIconConfig")
+                   campimage: "imgIconConfig"),
+        structMenu(camptitle: "Cerar Sesión",
+                   campsegue: "logInSegue",
+                   campimage: "imgIconConfig")//pendiente con esta imágen 
+        
     
     ]
     
@@ -208,6 +212,8 @@ extension MenuViewController: UITableViewDataSource, UITableViewDelegate {
                 
             case [0, 11]:
                 performSegue(withIdentifier: "12", sender: self)
+        case [0, 12]:
+            performSegue(withIdentifier: "13", sender: self)
                 
             default:
                 print("Nada")

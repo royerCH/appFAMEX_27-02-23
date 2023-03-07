@@ -15,9 +15,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imgBG4" translatesAutoresizingMaskIntoConstraints="NO" id="9k1-fn-Hfv">
-                                <rect key="frame" x="-6" y="-7" width="426" height="903"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgBG4" translatesAutoresizingMaskIntoConstraints="NO" id="9k1-fn-Hfv">
+                                <rect key="frame" x="0.0" y="-1447" width="1081" height="2343"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgLogoFamexBlanco2023" translatesAutoresizingMaskIntoConstraints="NO" id="8Rq-7B-Jpf">
                                 <rect key="frame" x="0.0" y="302" width="414" height="292"/>
@@ -27,6 +26,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="8Rq-7B-Jpf" firstAttribute="trailing" secondItem="TQC-Pa-xXD" secondAttribute="trailing" id="KAp-JI-qsw"/>
+                            <constraint firstItem="9k1-fn-Hfv" firstAttribute="leading" secondItem="8Rq-7B-Jpf" secondAttribute="leading" id="NpU-q1-lRg"/>
+                            <constraint firstAttribute="bottom" secondItem="9k1-fn-Hfv" secondAttribute="bottom" id="ZAN-bp-iqW"/>
                             <constraint firstItem="8Rq-7B-Jpf" firstAttribute="top" secondItem="TQC-Pa-xXD" secondAttribute="top" constant="258" id="dwf-rI-0RS"/>
                             <constraint firstItem="8Rq-7B-Jpf" firstAttribute="leading" secondItem="TQC-Pa-xXD" secondAttribute="leading" id="tcs-kL-EiF"/>
                             <constraint firstItem="TQC-Pa-xXD" firstAttribute="bottom" secondItem="8Rq-7B-Jpf" secondAttribute="bottom" constant="268" id="ur2-PL-HcO"/>

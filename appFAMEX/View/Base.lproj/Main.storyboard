@@ -556,13 +556,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P8f-2k-8Da">
-                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgBG1" translatesAutoresizingMaskIntoConstraints="NO" id="4bB-Tb-UjA" userLabel="ImgInicioFondo">
-                                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vDD-Sz-KsF">
-                                        <rect key="frame" x="0.0" y="746" width="428" height="100"/>
+                                        <rect key="frame" x="0.0" y="692" width="428" height="100"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XAn-Hl-zLF">
                                                 <rect key="frame" x="211.66666666666666" y="0.0" width="5" height="100"/>
@@ -625,26 +625,26 @@
                                         </constraints>
                                     </view>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="ZVJ-3I-vpg">
-                                        <rect key="frame" x="20" y="711.66666666666663" width="388" height="27.333333333333371"/>
+                                        <rect key="frame" x="20" y="657.66666666666663" width="388" height="27.333333333333371"/>
                                         <connections>
                                             <action selector="pageControlActionCarousel:" destination="Nuo-SU-JoI" eventType="valueChanged" id="VRF-27-mWC"/>
                                         </connections>
                                     </pageControl>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="het-Fc-Kx3">
-                                        <rect key="frame" x="10" y="871" width="123" height="23"/>
+                                        <rect key="frame" x="10" y="817" width="123" height="23"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P9u-4K-9xV">
-                                        <rect key="frame" x="147" y="858" width="261" height="49"/>
+                                        <rect key="frame" x="147" y="804" width="261" height="49"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hvp-tZ-pZw">
-                                        <rect key="frame" x="0.0" y="0.0" width="428" height="711.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="428" height="657.66666666666663"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gcO-vu-FVA">
-                                                <rect key="frame" x="69" y="241.66666666666663" width="290" height="450"/>
+                                                <rect key="frame" x="69" y="187.66666666666663" width="290" height="450"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="450" id="86i-7y-GAn"/>
@@ -709,11 +709,12 @@
                         <outlet property="viewCarouselBanners" destination="P9u-4K-9xV" id="UkE-yx-gDm"/>
                         <outlet property="viewInicio" destination="P8f-2k-8Da" id="f5m-Hc-Hxz"/>
                         <outlet property="viewLineRefButtons" destination="XAn-Hl-zLF" id="rSv-zV-xBW"/>
+                        <segue destination="b9o-1r-Hdi" kind="show" id="Ufm-7R-nrl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tvu-OS-ddp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1834" y="-102"/>
+            <point key="canvasLocation" x="2320" y="-125"/>
         </scene>
         <!--Famex View Controller-->
         <scene sceneID="ve3-Rz-HM5">
@@ -4592,6 +4593,7 @@
                         <segue destination="99I-j9-H3w" kind="show" identifier="10" id="o2T-dG-TrS"/>
                         <segue destination="LjQ-Ip-eQ2" kind="show" identifier="11" id="FSS-3p-Igs"/>
                         <segue destination="tug-R9-Bw2" kind="show" identifier="12" id="jfo-OC-N2Y"/>
+                        <segue destination="b9o-1r-Hdi" kind="show" identifier="13" id="Vdw-Dx-Yl7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SKn-8H-s8r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -5806,7 +5808,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Iek-BW-Bpn"/>
+        <segue reference="kKJ-b0-J9t"/>
+        <segue reference="Vdw-Dx-Yl7"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="AirplanesIconImg" width="156" height="156"/>
