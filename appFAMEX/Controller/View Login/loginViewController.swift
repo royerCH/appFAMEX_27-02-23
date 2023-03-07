@@ -135,7 +135,6 @@ class loginViewController: UIViewController, UITextFieldDelegate {
         NetworkingProvider.shared.getUser(id: 1830) { (user) in
             // Peticion correcta
             self.activityIndicator.stopAnimating()
-            
             //self.passCredentials(credential: "Hola")
             
             self.performSegue(withIdentifier: "logInSegue", sender: self)
@@ -145,7 +144,7 @@ class loginViewController: UIViewController, UITextFieldDelegate {
             self.activityIndicator.stopAnimating()
         }
         
-        print("Hello Login")
+            
      }
     
             // Registrarse
@@ -157,6 +156,9 @@ class loginViewController: UIViewController, UITextFieldDelegate {
                         // - Identificador del segue, tipo String ()
                         // - Sender, objeto que llama
         performSegue(withIdentifier: "signUpSegue", sender: self)
+        
+        
+        
         
     }
     
